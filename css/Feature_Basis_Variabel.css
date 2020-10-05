@@ -1,33 +1,47 @@
-:root {
-    --app-bg: url(https://i.imgur.com/U8bSjj5.jpg);
-    --app-blur: 6px;
-    --app-margin: 24px;
-    --app-radius: 8px;
-    --app-radius: <?php echo $app-radius-User?>;
-    --app-accent: #d73d3d;
-    --app-accent-rgb: 215,61,61;
-    --app-accent-text: #000;
-    --sidebar-color: rgba(0,0,0,0.4);
-    --main-content-color: rgba(0,0,0,0.2);
-    --messages-color: rgba(0,0,0,0.4);
-    --messages-radius: var(--app-radius);
-    --textarea-color: 0,0,0;
-    --textarea-text-color: #fff;
-    --textarea-radius: 22px;
-    --input-height: 36px;
-    --input-radius: calc(var(--input-height) / 2);
-    --card-color: rgba(0,0,0,0.4);
-    --card-color-hover: rgba(0,0,0,0.5);
-    --card-radius: var(--app-radius);
-    --button-color: var(--app-accent);
-    --button-action-color: #000;
-    --button-text-color: var(--app-accent-text);
-    --button-radius: var(--app-radius);
-    --popout-color: rgba(0,0,0,0.55);
-    --popout-blur: 5px;
-    --popout-header-opacity: 0.3;
+:root { /*StandartWerte*/
+    /*--app-bg: url(https://i.imgur.com/U8bSjj5.jpg);*/
+      --app-bg: <?php $app-bg-user;
+    /*--app-blur: 6px;*/
+      --app-blur: <?php echo $app-blur-user?>;
+    /*--app-margin: 24px;*/
+      --app-margin: <?php echo $app-margin-user?>;
+    /*--app-radius: 8px;*/
+      --app-radius: <?php echo $app-radius-user?>;
+    /*--app-accent: #d73d3d;*/
+      --app-accent: <?php echo $app-accent-user?>;
+    /*--app-accent-rgb: 215,61,61;*/
+      --app-accent-rgb: <?php echo $app-accent-user?>;
+    /*--app-accent-text: #000;*/
+      --app-accent-text: <?php echo $app-accent-text-user?>;
+    /*--sidebar-color: rgba(0,0,0,0.4);*/  
+      --sidebar-color: <?php echo $sidebar-color-user?>;
+    /*--main-content-color: rgba(0,0,0,0.2);*/
+      --main-content-color: <?php echo $main-content-color-user?>;
+    /*--messages-color: rgba(0,0,0,0.4);*/
+      --messages-color: <?php echo $messages-color-user?>;
+    /*--messages-radius: var(--app-radius); Nicht ändern*/
+      --messages-radius: var(--app-radius);
+    /*--textarea-color: 0,0,0;*/
+      --textarea-color: <?php echo $textarea-color-user?>;
+    /*--textarea-text-color: #fff;*/
+      --textarea-text-color: <?php echo $textarea-text-color-user?>;
+    /*--textarea-radius: 22px;*/
+      --textarea-radius: <?php echo $textarea-radius-user?>;
+    /*--input-height: 36px;*/
+      --input-height: <?php echo $input-height-user?>; 
+    /*--card-color: rgba(0,0,0,0.4);*/
+      --card-color: <?php echo $card-color-user?>;
+    /*--card-color-hover: rgba(0,0,0,0.5);*/
+      --card-color-hover: <?php echo $card-color-hover-user?>;
+    /*--button-action-color: #000;*/
+      --button-action-color: <?php echo $button-action-color-user?>;
+    /*--popout-color: rgba(0,0,0,0.55);*/
+      --popout-color: <?php echo $popout-color-user?>;
+    /*--popout-blur: 5px;*/
+      --popout-blur: <?php echo $popout-blur-user?>;
+    /*--popout-header-opacity: 0.3;*/
+      --popout-header-opacity: <?php echo $popout-header-opacity?>;
     --popout-header-shadow: 0px 3px 9px 0px rgba(0,0,0,0.25);
-    --popout-radius: var(--app-radius);
     --popout-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
     --nowplaying-color: 114,137,218;
     --streaming-color: 89,54,149;
@@ -41,8 +55,7 @@
     --background-primary: transparent;
     --background-modifier-hover: rgba(255,255,255,0.075);
     --background-modifier-selected: rgba(255,255,255,0.125);
-    --channels-default: var(--interactive-normal);
-    --text-muted: var(--interactive-normal);
+    
     --transition-time: 250ms;
     --transition-type: cubic-bezier(0.4,0,0.2,1);
     --scrollbar-color: 0,0,0;
@@ -50,11 +63,19 @@
     --scrollbar-opacity: 0.5;
     --scrollbar-opacity-hover: 0.7;
     --scrollbar-width: 10px; }
-  
+    /*Nicht ändern*/
+      --card-radius: var(--app-radius);
+      --button-color: var(--app-accent);
+      --button-radius: var(--app-radius);
+      --button-text-color: var(--app-accent-text);
+      --popout-radius: var(--app-radius);
+      --input-radius: calc(var(--input-height) / 2);
+      --channels-default: var(--interactive-normal);
+      --text-muted: var(--interactive-normal);
+      --background-primary: transparent;  
+
   /*
-   *
-   *	APP ELEMENTS
-   *
+  APP ELEMENTS 
    */
   .appMount-3lHmkl {
     background-image: var(--app-bg);
