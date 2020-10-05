@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #333333;
+}
+a:hover {
+    color: dodgerblue;
+}
+header div {
+    background-image: url(../img/headerbg.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 30px;
+}
+main div {
+    margin: 30px;
+}
+main div div {
+    margin: 20px 0px 20px 0;
+    font-size: 20px;
+}
+table, tr, th, td{
+    border-collapse: collapse;
+    border: black solid 1px;
+}
+footer {
+    background-color: #333333;
+    overflow: hidden;
+}
+footer p, footer a {
+    color: white;
+    text-decoration: none;
+}
+footer div {
+    padding: 30px;
+}
+.logo {
+    width: 5%;
+    margin: 30px;
+    background-color: white;
+    border: #333333 2px solid;
+}
+li:hover {
+    color: dodgerblue;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    margin: 0px 0px;
+}
+.cp {
+    color: dodgerblue;
+    font-weight: bold;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    text-align: right;
+}
+.name {
+    font-weight: bold;
+}
+#mainframe {
+    width: 50%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+#mainframe h1 {
+    color: green;
+}
+#titel {
+    width: 100%;
+    text-align: center;
+}
+#disclaimer {
+    width: 100%;
+    background-color: red;
+    padding: 30px;
+    text-align: center;
+    margin-left: -30px;
+    font-size: 20px;
+    color: white;
+}
+#imgtext img {
+    width: 85%;
+    float: left;
+}
+#imgtext {
+    display: inline-block;
+    text-align: left;
+}
+#imgtext p {
+    padding-left: 20px;
+}
+#idk {
+    font-size: 20px;
+}
+}
