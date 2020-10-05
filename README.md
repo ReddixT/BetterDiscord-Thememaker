@@ -1,1 +1,2 @@
-# BetterDiscord-Themesmaker
+# BetterDiscord-Thememaker
+
