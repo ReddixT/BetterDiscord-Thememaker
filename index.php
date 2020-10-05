@@ -10,7 +10,7 @@
         <div id="wrapper"></div>
             <header>
                 <div>
-                    <img src="img/BD.png" class="logo" alt="ICON BD">
+                    <img src="img/BD.png" class="logo" alt="ICON BD" draggable=false>
                     <nav>
                         <ul>
                             <li class="cp">Home</li>
