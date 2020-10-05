@@ -14,7 +14,7 @@ a:hover {
     color: dodgerblue;
 }
 header div {
-    background-image: url(../img/headerbg.jpg);
+    background-image: url(../img/headerbg.png);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
