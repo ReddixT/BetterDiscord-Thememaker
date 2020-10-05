@@ -20,7 +20,15 @@
                 </div>
             </header>
             <main>
-
+                <h1 id="titel">Create your own Theme</h1>
+                <form name="form" method="get">
+                    <p>Sidebarcolor</p>
+                    <input type="color" name="sidebarcolor" value="#000000"><br>
+                    <p>App Acent RGB</p>
+                    <input type="color" name="appaccentrgb" value="#D73D3D"><br>
+                    <p>App Background RGB</p>
+                    <input type="color" name="appbgrbg" value="#000000"><br>
+                </form>
             </main>
             <footer>
                 <div class="left">
