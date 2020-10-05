@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    background-color: #000a0b;
+    background-position-y: -100px;
+    background-image: url(../img/bgbackground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 div {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -13,12 +23,36 @@ a {
 a:hover {
     color: dodgerblue;
 }
+/*
 header div {
     background-image: url(../img/headerbg.png);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
 }
+*/
+main {
+    /*height: 2000px;*/
+}
+
+header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#banner {
+    height: 200px;
+}
+#bannerspace {
+    margin-top: 20px;
+}
+
 nav {
     background-color: rgba(255, 255, 255, 0.6);
     text-align: right;
@@ -33,6 +67,10 @@ nav ul li {
 }
 main div {
     margin: 30px;
+}
+main img {
+    height: 100%;
+    width: 100%;
 }
 main div div {
     margin: 20px 0px 20px 0;
@@ -56,7 +94,7 @@ footer div {
 .logo {
     width: 5%;
     margin: 30px;
-    background-color: white;
+    background-color: transparent;
     border: #333333 2px solid;
 }
 li:hover {
