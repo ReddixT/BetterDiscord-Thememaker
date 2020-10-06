@@ -36,10 +36,10 @@
         </div>
         <nav>
             <ul>
-                <li><a href="../index.php">Home</a></li>
+            <a href="../index.php"><li>Home</li></a>
                 <li class="cp">Create a Theme</li>
-                <li><a href="../pages/clearvision.php">ClearVision</a></li>
-                <li><a href="https://shorturl.at/esy46">Download BD</a></li>
+                <a href="../pages/clearvision.php"><li>ClearVision</li></a>
+                <a href="https://shorturl.at/esy46"><li>Download BD</li></a>
             </ul>
         </nav>
         </div>

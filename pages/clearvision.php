@@ -19,10 +19,10 @@
             <div>
                 <nav>
                     <ul>
-                        <li><a href="../index.php">Home</a></li>
-                        <li><a href="../pages/createtheme.php">Create a Theme</a></li>
+                    <a href="../index.php"><li>Home</li></a>
+                    <a href="../pages/createtheme.php"><li>Create a Theme</li></a>
                         <li class="cp">ClearVision</li>
-                        <li><a href="https://shorturl.at/esy46">Download BD</a></li>
+                        <a href="https://shorturl.at/esy46"><li>Download BD</li></a>
                     </ul>
                 </nav>
             </div>

@@ -67,6 +67,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.6);
     text-align: right;
 }
+
 nav ul li {
     list-style: none;
     text-decoration: none;
@@ -74,7 +75,12 @@ nav ul li {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px 30px;
+    cursor: default;
 }
+nav ul a {
+    cursor: default;
+}
+
 main div {
     margin: 1%;
     padding-bottom: 30px;
