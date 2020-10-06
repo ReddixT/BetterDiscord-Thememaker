@@ -4,6 +4,7 @@ main form {
     font-size: 18px;
     padding-left: 50px;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +12,9 @@ main form {
 
 html {
     background-color: #000a0b;
-    background-position-y: -100px;
+    background-position-y: 40%;
     background-image: url(../img/bgbackground.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100%;
     background-attachment: fixed;
 }
