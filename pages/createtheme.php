@@ -1,19 +1,15 @@
-
 <?php
-        if ($_POST['generated']) {
-            $code = file_get_contents("../assets/base_theme.css");
-            preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
-            //print_r($matches);
-            foreach ($matches as $value) {
-                $code = str_replace($value[0], $_POST[$value[1]], $code);
-            }
-            echo "<pre>";
-            echo $code;
-            echo "</pre>";
-            exit;    
-        }
+if ($_POST['generated']) {
+    $code = file_get_contents("../assets/base_theme.css");
+    preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
+    //print_r($matches);
+    foreach ($matches as $value) {
+        $code = str_replace($value[0], $_POST[$value[1]], $code);
+    }
+    file_put_contents("../assets/Thememaker.css", $code);
+}
 
-    ?>
+?>
 
 
 <!DOCTYPE html>
@@ -122,7 +118,7 @@
                         <option value="Helvetica">Helvetica</option>
                         <option value="sans-serif">sans-serif</option>
                     </select>
-                    <input type="hidden" name="generated" value="<?php echo date("YmdHis");?>">
+                    <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
                     <input type="submit" value="Submit" action="../assets/base_theme.css">
                 </form>
             </div>
@@ -131,7 +127,7 @@
             </div2>
         </div>
         <div>
-            <a href="../assets/base_theme.css" id="download">Download Theme</a>
+            <a href="../assets/Thememaker.css" id="download" download="ThemeMaker.css">Download Theme</a>
         </div>
     </main>
     <footer>
