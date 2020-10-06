@@ -129,7 +129,6 @@ li:hover {
     float: left;
     width: 50%;
 }
-  
 .row:after {
     content: "";
     display: table;
@@ -160,4 +159,11 @@ li:hover {
     width: 70%; 
     margin-top: 50px;
     border: 5px solid #000a0b;
+}
+
+#download {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid #ffffff
 }
