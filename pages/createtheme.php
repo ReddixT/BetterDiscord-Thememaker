@@ -101,6 +101,7 @@
                         <option value="Helvetica">Helvetica</option>
                         <option value="sans-serif">sans-serif</option>
                     </select>
+                    <input type="submit" value="Submit" action="../assets/base_theme.css">
                 </form>
             </div>
             <div2 class="column">
