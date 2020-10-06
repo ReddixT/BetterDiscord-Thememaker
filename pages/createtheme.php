@@ -1,21 +1,3 @@
-
-<?php
-        if ($_POST['generated']) {
-            $code = file_get_contents("../assets/base_theme.css");
-            preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
-            //print_r($matches);
-            foreach ($matches as $value) {
-                $code = str_replace($value[0], $_POST[$value[1]], $code);
-            }
-            echo "<pre>";
-            echo $code;
-            echo "</pre>";
-            exit;    
-        }
-
-    ?>
-
-
 <!DOCTYPE html>
 <html>
 
@@ -31,7 +13,7 @@
     <div id="wrapper"></div>
     <header>
         <div id="bannerspace">
-            <center><img id="banner" src="../img/headerbg_tight.png" alt="banner" draggable=false></center>
+            <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
             <img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false>
         </div>
         <nav>
