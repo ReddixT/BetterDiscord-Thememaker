@@ -6,7 +6,15 @@ if ($_POST['generated']) {
     foreach ($matches as $value) {
         $code = str_replace($value[0], $_POST[$value[1]], $code);
     }
-    file_put_contents("../assets/Thememaker.css", $code);
+    header('Content-Description: File Transfer');
+    header('Content-Type: text/css');
+    header('Content-Disposition: attachment; filename="ThemeMaker.css"');
+    header('Expires: 0');
+    header('Cache-Control: must-revalidate');
+    header('Pragma: public');
+    header('Content-Length: ' . filesize("ThemeMaker.css"));
+    readfile($code);
+    exit;
 }
 
 ?>
