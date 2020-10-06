@@ -17,8 +17,8 @@
 :root {
 
 	/* ACCENT COLORS */
-	--main-color: <?php echo $_GET['maincolor'];?>; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-	--hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+	--main-color: <?php echo $_GET['maincolor']; ?>; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+	--hover-color: <?php echo $_GET['hovercolor']; ?>; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
 	--success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
 	--danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
 	
@@ -36,9 +36,9 @@
 	--offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
 
 	/* GENERAL */
-	--main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
+	--main-font: <?php echo $_GET['font']; ?>; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
 	--code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
-	--text-normal: rgb(220, 221, 222); /* color of default discord text */
+	--text-normal: <?php echo $_GET['textcolor']; ?>; /* color of default discord text */
 	--text-muted:  rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
 	--channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
 	--members-width: 240px; /* member list width [default: 240px] */
