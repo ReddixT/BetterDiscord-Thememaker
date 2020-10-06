@@ -5,7 +5,6 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="../css/styles.css">
         <link rel="icon" href="../img/BD.png">
-        <link rel="ddm" href="../javascript/dropdownmenu.js">
     </head>
     <body>
         <div id="wrapper"></div>
@@ -18,6 +17,7 @@
                         <ul>
                             <li><a href="../index.php">Home</a></li>
                             <li class="cp">Create a Theme</li>
+                            <li><a href="clearvision.php">ClearVision</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -75,6 +75,14 @@
                                 </span>
                             </label><br>
                             <input type="url" name="bgimg"     value=""><br><br>
+
+                            <label for="bgblur"   >
+                                Background blur in px
+                                <span title="Changes the blur of the background">
+                                    <sup id="sup">(?)</sup>
+                                </span>
+                            </label><br>
+                            <input type="number" name="bgblur" value="0"><br><br>
 
                             
                             <label for="font"   >
