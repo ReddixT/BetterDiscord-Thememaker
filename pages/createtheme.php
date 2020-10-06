@@ -1,3 +1,21 @@
+
+<?php
+        if ($_POST['generated']) {
+            $code = file_get_contents("../assets/base_theme.css");
+            preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
+            //print_r($matches);
+            foreach ($matches as $value) {
+                $code = str_replace($value[0], $_POST[$value[1]], $code);
+            }
+            echo "<pre>";
+            echo $code;
+            echo "</pre>";
+            exit;    
+        }
+
+    ?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -9,6 +27,7 @@
 </head>
 
 <body>
+
     <div id="wrapper"></div>
     <header>
         <div id="bannerspace">
@@ -26,10 +45,12 @@
         </div>
     </header>
     <main>
+
+
         <div class="row">
             <h1 id="titel">Create your own Theme</h1>
             <div class="column">
-                <form name="form" method="get">
+                <form name="form" method="post">
 
                     <label for="maincolor">
                         Main Color
@@ -101,6 +122,7 @@
                         <option value="Helvetica">Helvetica</option>
                         <option value="sans-serif">sans-serif</option>
                     </select>
+                    <input type="hidden" name="generated" value="<?php echo date("YmdHis");?>">
                     <input type="submit" value="Submit" action="../assets/base_theme.css">
                 </form>
             </div>
