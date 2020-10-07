@@ -20,10 +20,10 @@
             <div>
                 <nav>
                     <ul>
-                        <a href="../index.php"><li>Home</li></a>
-                        <a href="../pages/createtheme.php"><li>Create a Theme</li></a>
+                        <a href="../index.php" draggable=false><li>Home</li></a>
+                        <a href="../pages/createtheme.php" draggable=false><li>Create a Theme</li></a>
                         <li class="cp">ClearVision</li>
-                        <a href="https://betterdiscord.net/home/"><li>Download BD</li></a>
+                        <a href="https://betterdiscord.net/home/" draggable=false><li>Download BD</li></a>
                     </ul>
                 </nav>
             </div>

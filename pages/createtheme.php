@@ -46,10 +46,10 @@ if ($_POST['generated']) {
             <div>
                 <nav>
                     <ul>
-                        <a href="../index.php"><li>Home</li></a>
+                        <a href="../index.php" draggable=false><li>Home</li></a>
                         <li class="cp">Create a Theme</li>
-                        <a href="../pages/clearvision.php"><li>ClearVision</li><a>
-                        <a href="https://betterdiscord.net/home/"><li>Download BD</li></a>
+                        <a href="../pages/clearvision.php" draggable=false><li>ClearVision</li><a>
+                        <a href="https://betterdiscord.net/home/" draggable=false><li>Download BD</li></a>
                     </ul>
                 </nav>
             </div>

@@ -22,9 +22,9 @@
                     <nav>
                         <ul>
                             <li class="cp">Home</li>
-                            <a href="pages/createtheme.php"><li>Create a Theme</li></a>
-                            <a href="pages/clearvision.php"><li>ClearVision</li></a>
-                            <a href="https://betterdiscord.net/home/"><li>Download BD</li></a>
+                            <a href="pages/createtheme.php" draggable=false><li>Create a Theme</li></a>
+                            <a href="pages/clearvision.php" draggable=false><li>ClearVision</li></a>
+                            <a href="https://betterdiscord.net/home/" draggable=false><li>Download BD</li></a>
                         </ul>
                     </nav>
                 </div>
