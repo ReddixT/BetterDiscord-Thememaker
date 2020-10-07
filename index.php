@@ -33,6 +33,13 @@
             <hr>
             <p1>Welcome to the BetterDiscord Thememaker Website. Feel free to look around and test the features we created and the themes you can create.<p1>
         </div>
+        <div id="origin">
+            <p>The origin</p>
+            <hr>
+            <div id="origintext">
+                <p1>The Origin of this project comes from our journey of becomming an application engineer. At the piont of making we are stationed in our basic apprenticeship year. We are beeing trained by the ZLI in lot's of skills we need to use in this project like HTML, CSS, PHP and many more.</p1>
+            </div> 
+        </div>
         <div id="contributors">
             <p>About the creators</p>
             <hr>
