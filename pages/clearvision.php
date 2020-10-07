@@ -4,25 +4,25 @@
 <head>
     <title>ClearVision Credits</title>
     <meta charset="utf-8">
+    <!--      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    -->
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" href="../img/BD.png">
 </head>
 
 <body>
     <div id="wrapper"></div>
-    <header>
         <div id="bannerspace">
-            <center><img id="banner" src="../img/headerbg_tight.png" alt="banner" draggable=false></center>
-            <img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false>
+            <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
+            <a href="../index.php"><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
         </div>
         <header>
             <div>
                 <nav>
                     <ul>
-                        <li><a href="../index.php">Home</a></li>
-                        <li><a href="../pages/createtheme.php">Create a Theme</a></li>
+                        <a href="../index.php"><li>Home</li></a>
+                        <a href="../pages/createtheme.php"><li>Create a Theme</li></a>
                         <li class="cp">ClearVision</li>
-                        <li><a href="https://shorturl.at/esy46">Download BD</a></li>
+                        <a href="https://shorturl.at/esy46"><li>Download BD</li></a>
                     </ul>
                 </nav>
             </div>
