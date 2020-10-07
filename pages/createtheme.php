@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 session_start();
 if ($_POST['generated']) {
     $code = file_get_contents("../assets/base_theme.css");
@@ -52,8 +53,6 @@ if ($_POST['generated']) {
             </div>
         </header>
     <main>
-
-
         <div class="row">
             <h1 id="titel">Create your own Theme</h1>
             <div class="column">
