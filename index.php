@@ -31,37 +31,44 @@
         <div id="introduction" class="textdiv">
             <p>BetterDiscord Thememaker</p>
             <hr>
-            <p1>Welcome to the BetterDiscord Thememaker Website. Feel free to look around and test the features we created and the themes you can create.<p1>
+            <div class="textdivcontent">
+                <p1>Welcome to the BetterDiscord Thememaker Website. Feel free to look around and test the features we created and the themes you can create.<p1>
+            </div>
         </div>
         <div id="origin" class="textdiv">
             <p>The origin</p>
             <hr>
-            <div id="origintext">
+            <div class="textdivcontent">
                 <p1>The Origin of this project comes from our journey of becomming an application engineer. At the piont of making we are stationed in our basic apprenticeship year. We are beeing trained by the ZLI in lot's of skills we need to use in this project like HTML, CSS, PHP and many more.</p1>
             </div> 
         </div>
         <div id="contributors" class="textdiv">
             <p>About the creators</p>
             <hr>
-            <div id="contributors_rene">
-                <p1>René aka. Reddix</p1>
+            <div class="textdivcontent">
+                <div id="contributors_rene">
+                    <p1>René aka. Reddix</p1>
+                    <br>
+                    <p2>Managing GitHub</p2>
+                </div>
                 <br>
-                <p2>Managing GitHub</p2>
-            </div>
-            <div id="contributors_robin">
-                <p1>Robin aka. Sorry4Nothing</p1>
+                <div id="contributors_robin">
+                    <p1>Robin aka. Sorry4Nothing</p1>
+                    <br>
+                    <p2>Administratives Exectuting & Webdesign</p2>
+                </div>
                 <br>
-                <p2>Administratives Exectuting & Webdesign</p2>
-            </div>
-            <div id="contributors_matteo">
-                <p1>Matteo aka. Mathelike</p1>
+                <div id="contributors_matteo">
+                    <p1>Matteo aka. Mathelike</p1>
+                    <br>
+                    <p2>Administratives Exectuting & Programming<p2>
+                </div>
                 <br>
-                <p2>Administratives Exectuting & Programming<p2>
-            </div>
-            <div id="contributors_oliver">
-                <p1>Oliver aka. OliverJ</p1>
-                <br>
-                <p2>Webdesign & Programming</p2>
+                <div id="contributors_oliver">
+                    <p1>Oliver aka. OliverJ</p1>
+                    <br>
+                    <p2>Webdesign & Programming</p2>
+                </div>
             </div>
         </div>
     </main>

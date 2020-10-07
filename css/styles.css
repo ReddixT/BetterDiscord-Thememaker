@@ -28,6 +28,11 @@ main {
     padding-bottom: 0;
 }
 
+.textdivcontent {
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
 .textdiv:hover {
     transition-duration: 0.5s;
     background: rgba(0, 0, 255, 0.25);
@@ -139,7 +144,7 @@ nav ul a {
 
 main div {
     margin: 1%;
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
 }
 main img {
     height: 100%;
