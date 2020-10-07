@@ -110,6 +110,14 @@ header div {
 }
 
 header {
+    background-color: black;
+    background-image: url(../img/bgbackground3.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     position: sticky;
     top: 0;
 }
@@ -117,9 +125,6 @@ header {
 nav {
     background-color: rgba(255, 255, 255, 0.6);
     text-align: right;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
 }
 
 #bannerspace a {
