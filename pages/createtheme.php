@@ -30,7 +30,7 @@ if ($_POST['generated']) {
     <title>Thememaker</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="icon" href="../img/BD.png">
+    <link rel="icon" href="../img/BD_transparent.png">
 </head>
 
 <body>
