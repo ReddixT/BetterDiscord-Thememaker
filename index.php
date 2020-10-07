@@ -28,32 +28,40 @@
                 </div>
             </header>
     <main class="main">
-        <div id="introduction">
+        <div id="introduction" class="textdiv">
             <p>BetterDiscord Thememaker</p>
             <hr>
             <p1>Welcome to the BetterDiscord Thememaker Website. Feel free to look around and test the features we created and the themes you can create.<p1>
         </div>
-        <div id="origin">
+        <div id="origin" class="textdiv">
             <p>The origin</p>
             <hr>
             <div id="origintext">
                 <p1>The Origin of this project comes from our journey of becomming an application engineer. At the piont of making we are stationed in our basic apprenticeship year. We are beeing trained by the ZLI in lot's of skills we need to use in this project like HTML, CSS, PHP and many more.</p1>
             </div> 
         </div>
-        <div id="contributors">
+        <div id="contributors" class="textdiv">
             <p>About the creators</p>
             <hr>
             <div id="contributors_rene">
-                <p1>René aka. Reddix - Managing GitHub</p1>
+                <p1>René aka. Reddix</p1>
+                <br>
+                <p2>Managing GitHub</p2>
             </div>
             <div id="contributors_robin">
-                <p1>Robin aka. Sorry4Nothing - Administratives Exectuting & Webdesign</p1>
+                <p1>Robin aka. Sorry4Nothing</p1>
+                <br>
+                <p2>Administratives Exectuting & Webdesign</p2>
             </div>
             <div id="contributors_matteo">
-                <p1>Matteo aka. Mathelike - Administratives Exectuting & Programming</p1>
+                <p1>Matteo aka. Mathelike</p1>
+                <br>
+                <p2>Administratives Exectuting & Programming<p2>
             </div>
             <div id="contributors_oliver">
-                <p1>Oliver aka. OliverJ - Webdesign & Programming</p1>
+                <p1>Oliver aka. OliverJ</p1>
+                <br>
+                <p2>Webdesign & Programming</p2>
             </div>
         </div>
     </main>
