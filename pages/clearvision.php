@@ -4,9 +4,9 @@
 <head>
     <title>ClearVision Credits</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/classes.css">
     <link rel="stylesheet" href="../css/ids.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" href="../img/BD_transparent.png">
 </head>
 

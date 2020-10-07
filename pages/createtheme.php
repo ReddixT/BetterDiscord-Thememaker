@@ -30,10 +30,10 @@ if ($_POST['generated']) {
 <head>
     <title>Thememaker</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/classes.css">
     <link rel="stylesheet" href="../css/ids.css">
     <link rel="icon" href="../img/BD_transparent.png">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
@@ -59,6 +59,7 @@ if ($_POST['generated']) {
         <div class="row">
             <h1 id="titel">Create your own Theme</h1>
             <div class="column">
+                <center>
                 <form name="form" method="post">
 
                     <label for="themename">
@@ -151,6 +152,7 @@ if ($_POST['generated']) {
                     <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
                     <input type="submit" value="Download Theme" id="download">
                 </form>
+                </center>
             </div>
             <div2 class="column">
                 <img src="../assets/example.png" alt="DiscordImage" id="myImg">
