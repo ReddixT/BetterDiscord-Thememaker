@@ -17,7 +17,7 @@ if ($_POST['generated']) {
 
     header('Content-Description: File Transfer');
     header('Content-Type: text/css');
-    header('Content-Disposition: attachment; filename="'.$filename.'"');
+    header('Content-Disposition: attachment; filename="'. $_POST['themename'] .'.theme.css"');
     header('Expires: 0');
     header('Cache-Control: must-revalidate');
     header('Pragma: public');
@@ -65,6 +65,22 @@ if ($_POST['generated']) {
             <div class="column">
                 <form name="form" method="post">
 
+                    <label for="themename">
+                        Name your Theme
+                        <span title="Shows the themename in Discord">
+                            <sup id="sup">(?)</sup>
+                        </span>
+                    </label><br>
+                    <input type="text" name="themename" value="CustomTheme"><br><br>
+
+                    <label for="author">
+                        Author
+                        <span title="Shows the author in Discord">
+                            <sup id="sup">(?)</sup>
+                        </span>
+                    </label><br>
+                    <input type="text" name="author" value="ROM-R"><br><br>
+
                     <label for="maincolor">
                         Main Color
                         <span title="Changes the main color">
@@ -95,7 +111,7 @@ if ($_POST['generated']) {
                             <sup id="sup">(?)</sup>
                         </span>
                     </label><br>
-                    <input type="number" name="channelswidth" value="220"><br><br>
+                    <input type="number" name="channelwidth" value="220"><br><br>
 
                     <label for="memberwidth">
                         Memberwidth in px
@@ -135,8 +151,9 @@ if ($_POST['generated']) {
                         <option value="Helvetica">Helvetica</option>
                         <option value="sans-serif">sans-serif</option>
                     </select>
+                    <br><br>
                     <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
-                    <input type="submit" value="Submit" action="../assets/base_theme.css">
+                    <input type="submit" value="Download Theme" id="download">
                 </form>
             </div>
             <div2 class="column">
