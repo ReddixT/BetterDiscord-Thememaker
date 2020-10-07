@@ -32,10 +32,10 @@ main {
 .textdiv {
     padding-top: 30px;
     padding-bottom: 30px;
+    transition-duration: 0.5s;
 }
 
 .textdiv:hover {
-    transition-duration: 0.5s;
     background: rgba(140, 3, 158, 0.5);
     box-shadow: 0 0 24px 6px rgba(173, 43, 89),
                 0 0 24px 6px rgba(173, 43, 89) inset;
@@ -145,6 +145,7 @@ nav ul li {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px 30px;
     cursor: default;
+    transition-duration: 0.5s;
 }
 nav ul a {
     cursor: default;
@@ -185,7 +186,6 @@ footer div {
     border: #333333 2px solid;
 }
 li:hover {
-    transition-duration: 0.5s;
     color: dodgerblue;
     background-color: rgba(0, 0, 0, 0.2);
     padding: 20px 30px;
