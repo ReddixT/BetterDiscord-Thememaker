@@ -51,7 +51,7 @@
                 <div id="contributors_rene">
                     <p1>René aka. Reddix</p1>
                     <br>
-                    <p2>Managing GitHub</p2>
+                    <p2>Managing GitHub & Programming</p2>
                 </div>
                 <br>
                 <div id="contributors_robin">
