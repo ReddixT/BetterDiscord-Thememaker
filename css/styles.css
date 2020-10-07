@@ -83,7 +83,14 @@ nav {
     text-align: right;
     position: sticky;
     position: -webkit-sticky;
-    top: 0; /* required */
+    top: 0;
+}
+
+header div a {
+    cursor: default;
+}
+#logo:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 nav ul li {

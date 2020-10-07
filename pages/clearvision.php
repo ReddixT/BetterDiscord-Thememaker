@@ -13,7 +13,7 @@
     <header>
         <div id="bannerspace">
             <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
-            <img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false>
+            <a href="../index.php"><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
         </div>
         <header>
             <div>
