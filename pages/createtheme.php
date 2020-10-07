@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 session_start();
 if ($_POST['generated']) {
     $code = file_get_contents("../assets/base_theme.css");
