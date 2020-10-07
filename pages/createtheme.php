@@ -7,17 +7,14 @@ if ($_POST['generated']) {
     foreach ($matches as $value) {
         $code = str_replace($value[0], $_POST[$value[1]], $code);
     }
-    // Create a temporary file in the temporary 
-    // files directory using sys_get_temp_dir()
     $filename = 'ThemeMaker' . session_id() . ".css";
-    $temp_file = sys_get_temp_dir() . DIRECTORY_SEPARATOR . $filename;    
+    $temp_file = sys_get_temp_dir() . DIRECTORY_SEPARATOR . $filename;
     $fp = fopen($temp_file, 'w');
     fwrite($fp, $code);
     fclose($fp);
-
     header('Content-Description: File Transfer');
     header('Content-Type: text/css');
-    header('Content-Disposition: attachment; filename="'. $_POST['themename'] .'.theme.css"');
+    header('Content-Disposition: attachment; filename="' . $_POST['themename'] . '.theme.css"');
     header('Expires: 0');
     header('Cache-Control: must-revalidate');
     header('Pragma: public');
@@ -25,7 +22,6 @@ if ($_POST['generated']) {
     readfile($temp_file);
     exit;
 }
-
 ?>
 
 
@@ -159,7 +155,7 @@ if ($_POST['generated']) {
             <div2 class="column">
                 <img src="../assets/example.png" alt="DiscordImage" id="myImg">
             </div2>
-        </main>
+    </main>
     <footer>
         <div class="left">
             <p>Project Contributors: <br>René, Matteo, Robin, Oliver<br></p>
