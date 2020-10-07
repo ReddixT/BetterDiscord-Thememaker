@@ -36,8 +36,8 @@ main {
 .textdiv:hover {
     transition-duration: 0.5s;
     background: rgba(140, 3, 158, 0.5);
-    /* you need to match the shadow color to your background or image border for the desired effect*/
-    box-shadow: 0 0 24px 6px rgba(173, 43, 89) ;
+    box-shadow: 0 0 24px 6px rgba(173, 43, 89),
+                0 0 24px 6px rgba(173, 43, 89) inset;
 }
 
 main form p {
