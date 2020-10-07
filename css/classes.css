@@ -1,0 +1,63 @@
+/*<?php header("Content-Type:text/css; charset: UTF-8"); ?>*/
+
+.main {
+    color: white;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+.main div p {
+    font-size: 300%;
+}
+
+.main div hr {
+    width: 15%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.textdivcontent {
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.textdiv {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition-duration: 0.5s;
+}
+
+.textdiv:hover {
+    background: rgba(140, 3, 158, 0.5);
+    box-shadow: 0 0 24px 6px rgba(173, 43, 89),
+                0 0 24px 6px rgba(173, 43, 89) inset;
+}
+
+.logo {
+    width: 5%;
+    margin: 30px;
+    background-color: transparent;
+    border: #333333 2px solid;
+}
+
+.cp {
+    color: red;
+    font-weight: bold;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    text-align: right;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
