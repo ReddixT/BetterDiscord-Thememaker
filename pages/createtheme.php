@@ -1,4 +1,5 @@
 <?php
+session_start();
 if ($_POST['generated']) {
     $code = file_get_contents("../assets/base_theme.css");
     preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
@@ -6,14 +7,22 @@ if ($_POST['generated']) {
     foreach ($matches as $value) {
         $code = str_replace($value[0], $_POST[$value[1]], $code);
     }
+    // Create a temporary file in the temporary 
+    // files directory using sys_get_temp_dir()
+    $filename = 'ThemeMaker' . session_id() . ".css";
+    $temp_file = sys_get_temp_dir() . DIRECTORY_SEPARATOR . $filename;    
+    $fp = fopen($temp_file, 'w');
+    fwrite($fp, $code);
+    fclose($fp);
+
     header('Content-Description: File Transfer');
     header('Content-Type: text/css');
-    header('Content-Disposition: attachment; filename="ThemeMaker.css"');
+    header('Content-Disposition: attachment; filename="'.$filename.'"');
     header('Expires: 0');
     header('Cache-Control: must-revalidate');
     header('Pragma: public');
-    header('Content-Length: ' . filesize("ThemeMaker.css"));
-    readfile($code);
+    header('Content-Length: ' . filesize($temp_file));
+    readfile($temp_file);
     exit;
 }
 
@@ -133,11 +142,7 @@ if ($_POST['generated']) {
             <div2 class="column">
                 <img src="../assets/example.png" alt="DiscordImage" id="myImg">
             </div2>
-        </div>
-        <div>
-            <a href="../assets/Thememaker.css" id="download" download="ThemeMaker.css">Download Theme</a>
-        </div>
-    </main>
+        </main>
     <footer>
         <div class="left">
             <p>Project Contributors: <br>René, Matteo, Robin, Oliver<br></p>
