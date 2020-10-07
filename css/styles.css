@@ -92,7 +92,7 @@ nav ul li {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px 30px;
     cursor: default;
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
 }
 nav ul a {
     cursor: default;
