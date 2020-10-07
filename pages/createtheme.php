@@ -9,23 +9,23 @@
 </head>
 
 <body>
-
     <div id="wrapper"></div>
-    <header>
         <div id="bannerspace">
             <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
             <a href="../index.php"><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
         </div>
-        <nav>
-            <ul>
-            <a href="../index.php"><li>Home</li></a>
-                <li class="cp">Create a Theme</li>
-                <a href="../pages/clearvision.php"><li>ClearVision</li></a>
-                <a href="https://shorturl.at/esy46"><li>Download BD</li></a>
-            </ul>
-        </nav>
-        </div>
-    </header>
+        <header>
+            <div>
+                <nav>
+                    <ul>
+                        <a href="../index.php"><li>Home</li></a>
+                        <li class="cp">Create a Theme</li>
+                        <a href="../pages/clearvision.php"><li>ClearVision</li><a>
+                        <a href="https://shorturl.at/esy46"><li>Download BD</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
     <main>
 
 

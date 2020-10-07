@@ -53,6 +53,7 @@ a {
 a:hover {
     color: dodgerblue;
 }
+
 /*
 header div {
     background-image: url(../img/headerbg.png);
@@ -78,6 +79,11 @@ header div {
     margin-top: 20px;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 nav {
     background-color: rgba(255, 255, 255, 0.6);
     text-align: right;
@@ -86,7 +92,7 @@ nav {
     top: 0;
 }
 
-header div a {
+#bannerspace a {
     cursor: default;
 }
 #logo:hover {
