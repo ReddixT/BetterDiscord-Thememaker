@@ -28,14 +28,17 @@ main form p {
 
 html {
     background-color: #000a0b;
-    background-position-y: 40%;
+    /*background-position-y: 40%;*/
     background-image: url(../img/bgbackground3.png);
-    background-repeat: repeat-y;
-    background-size: 100%;
-    background-attachment: fixed;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    /*background-repeat: repeat-y;*/
+    /*background-size: 100%;*/
+    /*background-attachment: fixed;*/
+    /*position: -webkit-sticky;*/ /* Safari */
 }
 
 div {
