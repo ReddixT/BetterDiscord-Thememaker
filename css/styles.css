@@ -6,6 +6,28 @@ main {
     padding-left: 50px;
     color: #ffffff;
 }
+
+.main {
+    color: white;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+.main div p {
+    font-size: 300%;
+}
+
+.main div hr {
+    width: 15%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+#introduction {
+    padding-bottom: 0;
+}
+
 main form p {
     font-size: 15px;
 }

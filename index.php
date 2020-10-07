@@ -27,8 +27,28 @@
                     </nav>
                 </div>
             </header>
-    <main>
-        <!--   <img src="img/bgbackground.png" alt="background.png"> -->
+    <main class="main">
+        <div id="introduction">
+            <p>BetterDiscord Thememaker</p>
+            <hr>
+            <p1>Welcome to the BetterDiscord Thememaker Website. Feel free to look around and test the features we created and the themes you can create.<p1>
+        </div>
+        <div id="contributors">
+            <p>About the creators</p>
+            <hr>
+            <div id="contributors_rene">
+                <p1>René aka. Reddix - Managing GitHub</p1>
+            </div>
+            <div id="contributors_robin">
+                <p1>Robin aka. Sorry4Nothing - Administratives Exectuting & Webdesign</p1>
+            </div>
+            <div id="contributors_matteo">
+                <p1>Matteo aka. Mathelike - Administratives Exectuting & Programming</p1>
+            </div>
+            <div id="contributors_oliver">
+                <p1>Oliver aka. OliverJ - Webdesign & Programming</p1>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="left">
