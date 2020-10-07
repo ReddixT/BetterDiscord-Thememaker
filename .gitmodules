@@ -1,3 +1,6 @@
 [submodule "stylus"]
 	path = stylus
 	url = https://github.com/openstyles/stylus.git
+[submodule "BetterDiscordApp"]
+	path = BetterDiscordApp
+	url = https://github.com/rauenzi/BetterDiscordApp.git
