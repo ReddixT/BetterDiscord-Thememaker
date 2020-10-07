@@ -1,42 +1,151 @@
+/*<?php header("Content-Type:text/css; charset: UTF-8"); ?>*/
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left: 50px;
+    color: #ffffff;
+}
+
+.main {
+    color: white;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+.main div p {
+    font-size: 300%;
+}
+
+.main div hr {
+    width: 15%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+#introduction {
+    padding-bottom: 0;
+}
+
+main form p {
+    font-size: 15px;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
+
+*::-webkit-scrollbar {
+    display: none;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    /* Removes the Scrollbar for a cleaner website-design*/
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+html {
+    background-color: #000a0b;
+    /*background-position-y: 40%;*/
+    background-image: url(../img/bgbackground3.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*background-repeat: repeat-y;*/
+    /*background-size: 100%;*/
+    /*background-attachment: fixed;*/
+    /*position: -webkit-sticky;*/ /* Safari */
+}
+
 div {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 a {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: #333333;
+    color: #9c0000;
 }
 a:hover {
     color: dodgerblue;
 }
+
+/*
 header div {
     background-image: url(../img/headerbg.png);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
 }
+*/
+/*main {
+    height: 2000px;
+}*/
+
+
+#logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#banner {
+    height: 200px;
+}
+#bannerspace {
+    margin-top: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
 nav {
     background-color: rgba(255, 255, 255, 0.6);
     text-align: right;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
+
+#bannerspace a {
+    cursor: default;
+}
+#logo:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 nav ul li {
     list-style: none;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 20px 30px;
+    cursor: default;
 }
+nav ul a {
+    cursor: default;
+}
+
 main div {
-    margin: 30px;
+    margin: 1%;
+    padding-bottom: 30px;
+}
+main img {
+    height: 100%;
+    width: 100%;
 }
 main div div {
-    margin: 20px 0px 20px 0;
+    margin: 0;
     font-size: 20px;
+    color: #ffffff;
 }
 table, tr, th, td{
     border-collapse: collapse;
@@ -56,7 +165,7 @@ footer div {
 .logo {
     width: 5%;
     margin: 30px;
-    background-color: white;
+    background-color: transparent;
     border: #333333 2px solid;
 }
 li:hover {
@@ -66,7 +175,7 @@ li:hover {
     margin: 0px 0px;
 }
 .cp {
-    color: dodgerblue;
+    color: red;
     font-weight: bold;
 }
 .left {
@@ -76,43 +185,48 @@ li:hover {
     float: right;
     text-align: right;
 }
-.name {
-    font-weight: bold;
-}
-#mainframe {
+.column {
+    float: left;
     width: 50%;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
 }
-#mainframe h1 {
-    color: green;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 #titel {
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     text-align: center;
+    color: #ffffff;
 }
-#disclaimer {
+#sup {
+    font-size: 10px;
+}
+#colorinput {
+    width: 100px;
+}
+#myImg{
     width: 100%;
-    background-color: red;
-    padding: 30px;
-    text-align: center;
-    margin-left: -30px;
-    font-size: 20px;
-    color: white;
+    height: auto;
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
 }
-#imgtext img {
-    width: 85%;
-    float: left;
+#cvpic {
+    display:block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 70%; 
+    margin-top: 50px;
+    border: 5px solid #000a0b;
 }
-#imgtext {
-    display: inline-block;
-    text-align: left;
-}
-#imgtext p {
-    padding-left: 20px;
-}
-#idk {
-    font-size: 20px;
+
+#download {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    width: 200px;
+    font-size: 15px;
 }
