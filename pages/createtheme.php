@@ -21,7 +21,6 @@ if ($_POST['generated']) {
     header('Pragma: public');
     header('Content-Length: ' . filesize($temp_file));
     readfile($temp_file);
-    exit;
 }
 ?>
 <!DOCTYPE html>
@@ -149,8 +148,8 @@ if ($_POST['generated']) {
                     <input type="submit" value="Download Theme" id="download">
                 </form>
             </div>
-            <div2 class="column">
-                <img src="../assets/example.png" alt="DiscordImage" id="myImg">
+            <div2 class="preview">
+                <iframe src="../assats/preview.php" title="preview-user" id="preview"></iframe>
             </div2>
     </main>
     <footer>
