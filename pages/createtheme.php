@@ -49,7 +49,7 @@ if ($_POST['generated']) {
                         <a href="../index.php"><li>Home</li></a>
                         <li class="cp">Create a Theme</li>
                         <a href="../pages/clearvision.php"><li>ClearVision</li><a>
-                        <a href="https://shorturl.at/esy46"><li>Download BD</li></a>
+                        <a href="https://betterdiscord.net/home/"><li>Download BD</li></a>
                     </ul>
                 </nav>
             </div>

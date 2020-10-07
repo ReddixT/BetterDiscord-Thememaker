@@ -24,7 +24,7 @@
                             <li class="cp">Home</li>
                             <a href="pages/createtheme.php"><li>Create a Theme</li></a>
                             <a href="pages/clearvision.php"><li>ClearVision</li></a>
-                            <a href="https://shorturl.at/esy46"><li>Download BD</li></a>
+                            <a href="https://betterdiscord.net/home/"><li>Download BD</li></a>
                         </ul>
                     </nav>
                 </div>
