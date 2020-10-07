@@ -57,11 +57,10 @@ main form p {
 
 *::-webkit-scrollbar {
     display: none;
-  }
+}
 
-html {
-    background-color: #000a0b;
-    /*background-position-y: 40%;*/
+body {
+    background-color: #000A0B;
     background-image: url(../img/bgbackground3.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -69,10 +68,7 @@ html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /*background-repeat: repeat-y;*/
-    /*background-size: 100%;*/
-    /*background-attachment: fixed;*/
-    /*position: -webkit-sticky;*/ /* Safari */
+    backdrop-filter: blur(5px);
 }
 
 div {
