@@ -28,7 +28,7 @@
                 </div>
             </header>
     <main class="main">
-        <div id="introduction" class="textdiv">
+        <div id="introduction" class="textdiv textdiv2">
             <p>BetterDiscord Thememaker</p>
             <hr>
             <div class="textdivcontent">
