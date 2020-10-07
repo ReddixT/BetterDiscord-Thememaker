@@ -53,8 +53,6 @@ if ($_POST['generated']) {
             </div>
         </header>
     <main>
-
-
         <div class="row">
             <h1 id="titel">Create your own Theme</h1>
             <div class="column">
