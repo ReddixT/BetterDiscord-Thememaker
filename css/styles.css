@@ -35,8 +35,9 @@ main {
 }
 
 .textdiv:hover {
-    transition-duration: 0.5s;
+    transition: background 0.1125s ease-in-out;
     background: rgba(140, 3, 158, 0.5);
+    transition: box-shadow 0.025s ease-in-out;
     box-shadow: 0 0 24px 6px rgba(173, 43, 89),
                 0 0 24px 6px rgba(173, 43, 89) inset;
 }
