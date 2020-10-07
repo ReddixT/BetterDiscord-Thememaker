@@ -24,13 +24,14 @@ main {
     margin-left: auto;
 }
 
-#introduction {
-    padding-bottom: 0;
-}
-
 .textdivcontent {
     width: 50%;
     margin: 0 auto 0 auto;
+}
+
+.textdiv {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .textdiv:hover {
