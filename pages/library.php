@@ -32,15 +32,29 @@
             </div>
         </header>
         <main>
-
+            <div class="row">
+                <div class="column4">
+                    <p style="text-align:center;"><img src="../assets/example.png" alt="test" class="columnpic"></p>
+                    <div class="bottom-left">Themeexample</div>
+                </div>
+                <div class="column4" id="center">
+                    <p style="text-align:center;"><img src="../assets/example.png" alt="test" class="columnpic"></p>
+                    <div class="bottom-left">Themeexample</div>
+                </div>
+                <div class="column4">
+                    <p style="text-align:center;"><img src="../assets/example.png" alt="test" class="columnpic"></p>
+                    <div class="bottom-left">Themeexample</div>
+                </div>
+            </div>
         </main>
         <footer>
             <div class="left">
-
+                <p>Project Contributors: <br>René, Matteo, Robin, Oliver<br></p>
             </div>
 
             <div class="right">
-
+                <a href="https://github.com/ReddixT/BetterDiscord-Thememaker">GitHub<br></a>
+                <a href="https://www.zli.ch/">ZLI</a>
             </div>
         </footer>
         </div>
