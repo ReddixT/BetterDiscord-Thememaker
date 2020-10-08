@@ -38,23 +38,30 @@ if ($_POST['generated']) {
 
 <body>
     <div id="wrapper"></div>
-        <div id="bannerspace">
-            <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
-            <a href="../index.php"><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
+    <div id="bannerspace">
+        <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
+        <a href="../index.php"><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
+    </div>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <a href="../index.php" draggable=false>
+                        <li>Home</li>
+                    </a>
+                    <li class="cp">Create a Theme</li>
+                    <a href="../pages/clearvision.php">
+                        <li>ClearVision</li><a>
+                            <a href="../pages/library.php">
+                                <li>Library</li>
+                            </a>
+                            <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe">
+                                <li>Download BD</li>
+                            </a>
+                </ul>
+            </nav>
         </div>
-        <header>
-            <div>
-                <nav>
-                    <ul>
-                        <a href="../index.php" draggable=false><li>Home</li></a>
-                        <li class="cp">Create a Theme</li>
-                        <a href="../pages/clearvision.php"><li>ClearVision</li><a>
-                        <a href="../pages/library.php"><li>Library</li></a>
-                        <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe"><li>Download BD</li></a>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    </header>
     <main>
         <div class="row">
             <h1 id="titel">Create your own Theme</h1>
@@ -155,14 +162,8 @@ if ($_POST['generated']) {
                 <!-- </center> -->
             </div>
             <div2 class="column">
-                <iframe
-                    sandbox= "allow-scripts allow-pointer-lock allow-same-origin allow-forms"
-                    seamless
-                    src="https://discord.com"
-                    width="90%" 
-                    height="400" 
-                    name="SELFHTML_in_a_box">
-                </iframe>            
+                <iframe sandbox="allow-scripts allow-pointer-lock allow-same-origin allow-forms" seamless src="https://discord.com" width="90%" height="400" name="SELFHTML_in_a_box">
+                </iframe>
             </div2>
     </main>
     <footer>
