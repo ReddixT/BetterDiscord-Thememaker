@@ -174,7 +174,7 @@ if ($_POST['generated']) {
                 <!-- </center> -->
             </div>
             <div2 class="column">
-                <object data="../assets/hack/discordpreview.html" id="preview" ></object>
+                <object data="../discordpreview/discordpreview.html" id="preview" ></object>
             </div2>
     </main>
     <footer>
