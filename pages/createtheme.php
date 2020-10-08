@@ -40,11 +40,11 @@ if ($_POST['generated']) {
     <div id="wrapper"></div>
     <div id="bannerspace">
         <center>
-            <a href="https://discord.com/">
+            <a href="https://discord.com/" draggable=false>
                 <img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false>
             </a>
         </center>
-        <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe">
+        <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe" draggable=false>
             <img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false>
         </a>
     </div>
@@ -52,14 +52,14 @@ if ($_POST['generated']) {
         <div>
             <nav>
                 <ul>
-                    <a href="../index.php">
+                    <a href="../index.php" draggable=false>
                         <li>Home</li>
                     </a>
                     <li class="cp">Create a Theme</li>
-                    <a href="../pages/library.php">
+                    <a href="../pages/library.php" draggable=false>
                         <li>Library</li>
                     </a>
-                    <a href="../pages/clearvision.php">
+                    <a href="../pages/clearvision.php" draggable=false>
                         <li>ClearVision</li>
                     </a>
                 </ul>
