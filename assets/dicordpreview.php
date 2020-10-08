@@ -6,6 +6,10 @@ $result = curl_exec($curl_session);
 curl_close($curl_session);
 echo $result;
 
-
-
 ?>
+
+
+<!DOCTYPE html>
+
+<a href="https://discord.com">Discord</a>
+</html>

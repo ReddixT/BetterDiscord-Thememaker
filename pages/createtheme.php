@@ -152,10 +152,22 @@ if ($_POST['generated']) {
                     <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
                     <input type="submit" value="Download Theme" id="download">
                 </form>
+<<<<<<< HEAD
                 <!-- </center> -->
             </div>
+=======
+            </center>
+        </div>
+>>>>>>> 842e7c9... preview start
             <div2 class="column">
-                <img src="../assets/example.png" alt="DiscordImage" id="myImg">
+                <iframe
+                    sandbox= "allow-scripts allow-pointer-lock allow-same-origin allow-forms"
+                    seamless
+                    src="https://discord.com"
+                    width="90%" 
+                    height="400" 
+                    name="SELFHTML_in_a_box">
+                </iframe>            
             </div2>
     </main>
     <footer>
