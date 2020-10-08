@@ -62,7 +62,7 @@
     outline: none;
     margin-top: 20px;
     width: 25%;
-    padding: 2% 0 2% 15px;
+    padding: 2% 0 2% 2%;
 
     display: inline-block;
     border: 1px solid #ccc;
@@ -73,7 +73,7 @@
     outline: none;
     margin-top: 20px;
     width: 25%;
-    padding: 2% 0 2% 15px;
+    padding: 2% 0 2% 2%;
     box-sizing: content-box;
 }
 
