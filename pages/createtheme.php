@@ -28,7 +28,7 @@ if ($_POST['generated']) {
 <html>
 
 <head>
-    <title>Thememaker</title>
+    <title>Themecreator</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/classes.css">
     <link rel="stylesheet" href="../css/ids.css">
