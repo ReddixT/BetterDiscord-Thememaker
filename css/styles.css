@@ -127,6 +127,6 @@ footer div {
 li:hover {
     color: dodgerblue;
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 20px 30px;
-    margin: 0px 0px;
+    /* padding: 20px 30px;
+    margin: 0px 0px; */
 }
