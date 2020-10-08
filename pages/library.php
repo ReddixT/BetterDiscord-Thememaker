@@ -26,10 +26,14 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="../index.php">Home</a></li>
-                    <li><a href="../pages/createtheme.php">Create a Theme</a></li>
-                    <li class="cp">Library</li>
-                    <li><a href="../pages/clearvision.php">ClearVision</a></li>
+                    <a href="../index.php">
+                        <li>Home</li>
+                    </a>
+                    <a href="../pages/createtheme.php">
+                        <li>Create a Theme</li>
+                    </a>
+                    <li class='cp'>Library</li>
+                    <a href="../pages/cleanvision.php"><li>ClearVision</li></a>
                 </ul>
             </nav>
         </div>
