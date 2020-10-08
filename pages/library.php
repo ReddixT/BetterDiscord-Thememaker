@@ -34,18 +34,82 @@
         <main>
             <div class="row">
                 <div class="column4">
-                    <p style="text-align:center;"><img src="../assets/example.png" alt="test" class="columnpic"></p>
-                    <div class="bottom-left">Themeexample</div>
-                </div>
-                <div class="column4" id="center">
-                    <p style="text-align:center;"><img src="../assets/example.png" alt="test" class="columnpic"></p>
-                    <div class="bottom-left">Themeexample</div>
+                    <p style="text-align:center;">
+                        <a href="../librarythemes/BasicBackground.theme.css" download>
+                            <img src="../img/librarythumbnails/BasicBackground.jpg" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">BasicBackground By: DevilBro</div>
                 </div>
                 <div class="column4">
-                    <p style="text-align:center;"><img src="../assets/example.png" alt="test" class="columnpic"></p>
-                    <div class="bottom-left">Themeexample</div>
+                    <p style="text-align:center;">
+                        <a href="../assets/example.png" download>
+                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">Themeexample</div>
+                </div>
+                <div class="column4">
+                    <p style="text-align:center;">
+                        <a href="../assets/example.png" download>
+                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">Themeexample</div>
                 </div>
             </div>
+            <div class="row">
+                <div class="column4">
+                    <p style="text-align:center;">
+                        <a href="../assets/example.png" download>
+                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">Themeexample</div>
+                </div>
+                <div class="column4">
+                    <p style="text-align:center;">
+                        <a href="../assets/example.png" download>
+                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">Themeexample</div>
+                </div>
+                <div class="column4">
+                    <p style="text-align:center;">
+                        <a href="../assets/example.png" download>
+                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">Themeexample</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column4">
+                    <p style="text-align:center;">
+                        <a href="../assets/example.png" download>
+                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">Themeexample</div>
+                </div>
+                <div class="column4">
+                    <p style="text-align:center;">
+                        <a href="../assets/example.png" download>
+                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">Themeexample</div>
+                </div>
+                <div class="column4">
+                    <p style="text-align:center;">
+                        <a href="../assets/example.png" download>
+                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">Themeexample</div>
+                </div>
+            </div>        
         </main>
         <footer>
             <div class="left">
