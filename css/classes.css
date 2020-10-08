@@ -30,8 +30,8 @@
 
 .textdiv:hover {
     background: rgba(140, 3, 158, 0.5);
-    box-shadow: 0 0 24px 6px rgba(173, 43, 89),
-                0 0 24px 6px rgba(173, 43, 89) inset;
+    box-shadow: 0 0 36px 20px rgba(173, 43, 89),
+                0 0 36px 10px rgba(173, 43, 89) inset;
 }
 
 .logo {
