@@ -33,14 +33,18 @@
                         <li>Create a Theme</li>
                     </a>
                     <li class='cp'>Library</li>
-                    <a href="../pages/clearvision.php" draggable=false><li>ClearVision</li></a>
+                    <a href="../pages/clearvision.php" draggable=false>
+                        <li>ClearVision</li>
+                    </a>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
         <h1 id="titel">Theme Library</h1>
-        <center><hr style="width: 50%;"></center>
+        <center>
+            <hr style="width: 50%;">
+        </center>
         <div class="row">
             <div class="column4">
                 <p style="text-align:center;">

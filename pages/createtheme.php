@@ -69,7 +69,9 @@ if ($_POST['generated']) {
     <main>
         <div class="row">
             <h1 id="titel">Create your own Theme</h1>
-            <center><hr style="width: 50%;"></center>
+            <center>
+                <hr style="width: 50%;">
+            </center>
             <div class="column">
                 <!-- <center> -->
                 <form name="form" method="post">
