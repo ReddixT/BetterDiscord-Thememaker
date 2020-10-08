@@ -68,6 +68,15 @@
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
+.column form select {
+    outline: none;
+    margin-top: 20px;
+    width: 25%;
+    padding: 2% 0 2% 15px;
+    box-sizing: content-box;
+}
+
 .column4 {
     float: left;
     width: 33.33%;

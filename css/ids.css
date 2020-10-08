@@ -28,9 +28,9 @@
 #sup {
     font-size: 10px;
 }
-/* #colorinput {
-    width: 100px; 
-} */
+#colorinput {
+    padding: 1%;
+}
 #myImg{
     width: 100%;
     height: auto;
