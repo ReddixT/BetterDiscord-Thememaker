@@ -61,13 +61,12 @@
 .column form input {
     outline: none;
     margin-top: 20px;
-    width: 80%;
-    padding: 1% 0 1% 15px;
+    width: 25%;
+    padding: 2% 0 2% 15px;
 
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
 }
 .column4 {
     float: left;

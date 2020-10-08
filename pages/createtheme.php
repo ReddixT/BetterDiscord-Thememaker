@@ -59,7 +59,7 @@ if ($_POST['generated']) {
         <div class="row">
             <h1 id="titel">Create your own Theme</h1>
             <div class="column">
-                <center>
+                <!-- <center> -->
                 <form name="form" method="post">
 
                     <label for="themename">
@@ -152,7 +152,7 @@ if ($_POST['generated']) {
                     <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
                     <input type="submit" value="Download Theme" id="download">
                 </form>
-                </center>
+                <!-- </center> -->
             </div>
             <div2 class="column">
                 <img src="../assets/example.png" alt="DiscordImage" id="myImg">
