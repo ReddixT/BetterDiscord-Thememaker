@@ -81,26 +81,6 @@
     user-select: none;
 }
 
-<<<<<<< HEAD
-#tutorialMain p {
-    margin-top: 1%;
-    font-size: 300%;
-}
-
-#tutorialMain hr {
-    width: 20%;
-    margin: 1% 0 1% 0;
-}
-
-#tutorialMain p2 {
-    font-size: 200%;
-}
-
-#tutorialMain iframe {
-    margin-top: 1%;
-    margin-bottom: 2%;
-}
-=======
 #zlilogo img {
     width:  6%;
     height: 6%;
@@ -112,4 +92,3 @@
     width: 8%;
     height: 8%;
 }
->>>>>>> fc1ad76... footer fix
