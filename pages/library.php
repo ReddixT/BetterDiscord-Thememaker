@@ -15,11 +15,11 @@
     <div id="bannerspace">
         <center>
             <a href="https://discord.com/">
-                <img id="banner" src="img/headerbg_tight_transparent.png" alt="banner" draggable=false>
+                <img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false>
             </a>
         </center>
         <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe">
-            <img id="logo" src="img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false>
+            <img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false>
         </a>
     </div>
     <header>
@@ -28,11 +28,8 @@
                 <ul>
                     <li><a href="../index.php">Home</a></li>
                     <li><a href="../pages/createtheme.php">Create a Theme</a></li>
-                    <li><a href="../pages/clearvision.php">ClearVision</a></li>
                     <li class="cp">Library</li>
-                    <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe">
-                        <li>Download BD</li>
-                    </a>
+                    <li><a href="../pages/clearvision.php">ClearVision</a></li>
                 </ul>
             </nav>
         </div>

@@ -30,11 +30,11 @@
                     <a href="pages/createtheme.php">
                         <li>Create a Theme</li>
                     </a>
-                    <a href="pages/clearvision.php">
-                        <li>ClearVision</li>
-                    </a>
                     <a href="pages/library.php">
                         <li>Library</li>
+                    </a>
+                    <a href="pages/clearvision.php">
+                        <li>ClearVision</li>
                     </a>
                 </ul>
             </nav>
