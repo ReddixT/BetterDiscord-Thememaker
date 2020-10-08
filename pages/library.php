@@ -33,7 +33,7 @@
                         <li>Create a Theme</li>
                     </a>
                     <li class='cp'>Library</li>
-                    <a href="../pages/cleanvision.php"><li>ClearVision</li></a>
+                    <a href="../pages/clearvision.php"><li>ClearVision</li></a>
                 </ul>
             </nav>
         </div>
