@@ -23,6 +23,7 @@
                         <a href="../index.php" draggable=false><li>Home</li></a>
                         <a href="../pages/createtheme.php" draggable=false><li>Create a Theme</li></a>
                         <li class="cp">ClearVision</li>
+                        <a href="../pages/library.php"><li>Library</li></a>
                         <a href="https://betterdiscord.net/home/" draggable=false><li>Download BD</li></a>
                     </ul>
                 </nav>
