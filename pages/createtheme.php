@@ -109,6 +109,7 @@ if ($_POST['generated']) {
                             <option value="sans-serif">sans-serif</option>
                         </select><br><br>
                         <input type="submit" value="Download Theme" id="download">
+                        <br><br><br><br><br>
                     </div>
 
                     <div id="rightdiv" {
