@@ -5,6 +5,6 @@ This is a Project for BetterDiscord from ZLI apprentices.
 **Contributors:**
 
 - René      Managing GitHub
-- Matteo    Administratives Exectuting
+- Matteo    Administrative Exectuting
 - Oliver    Web Designer, Programmer
-- Robin     Administratives Exectuting
+- Robin     Administrative Exectuting
