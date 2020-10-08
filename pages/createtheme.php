@@ -1,7 +1,8 @@
 <?php
+error_reporting(0);
 session_start();
 if ($_POST['generated']) {
-    $code = file_get_contents("../assets/base_theme.css");
+    $code = file_get_contents("../themesbd/base_theme.css");
     preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
     //print_r($matches);
     foreach ($matches as $value) {
@@ -29,34 +30,43 @@ if ($_POST['generated']) {
 <head>
     <title>Thememaker</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/classes.css">
+    <link rel="stylesheet" href="../css/ids.css">
+    <link rel="icon" href="../img/BD_transparent.png">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="icon" href="../img/BD.png">
 </head>
 
 <body>
     <div id="wrapper"></div>
-        <div id="bannerspace">
-            <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
-            <a href="../index.php"><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
+    <div id="bannerspace">
+        <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
+        <a href="../index.php"><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
+    </div>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <a href="../index.php" draggable=false>
+                        <li>Home</li>
+                    </a>
+                    <li class="cp">Create a Theme</li>
+                    <a href="../pages/clearvision.php">
+                        <li>ClearVision</li><a>
+                            <a href="../pages/library.php">
+                                <li>Library</li>
+                            </a>
+                            <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe">
+                                <li>Download BD</li>
+                            </a>
+                </ul>
+            </nav>
         </div>
-        <header>
-            <div>
-                <nav>
-                    <ul>
-                        <a href="../index.php"><li>Home</li></a>
-                        <li class="cp">Create a Theme</li>
-                        <a href="../pages/clearvision.php"><li>ClearVision</li><a>
-                        <a href="https://shorturl.at/esy46"><li>Download BD</li></a>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    </header>
     <main>
-
-
         <div class="row">
             <h1 id="titel">Create your own Theme</h1>
             <div class="column">
+                <!-- <center> -->
                 <form name="form" method="post">
 
                     <label for="themename">
@@ -149,9 +159,11 @@ if ($_POST['generated']) {
                     <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
                     <input type="submit" value="Download Theme" id="download">
                 </form>
+                <!-- </center> -->
             </div>
             <div2 class="column">
-                <img src="../assets/example.png" alt="DiscordImage" id="myImg">
+                <iframe sandbox="allow-scripts allow-pointer-lock allow-same-origin allow-forms" seamless src="https://discord.com" width="90%" height="400" name="SELFHTML_in_a_box">
+                </iframe>
             </div2>
     </main>
     <footer>

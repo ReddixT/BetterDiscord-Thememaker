@@ -3,30 +3,10 @@
 main {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    padding-left: 50px;
+    /*padding-left: 50px;*/
     color: #ffffff;
 }
 
-.main {
-    color: white;
-    margin: 20px auto 0 auto;
-    text-align: center;
-}
-.main div p {
-    font-size: 300%;
-}
-
-.main div hr {
-    width: 15%;
-    margin-top: 10px;
-    margin-right: auto;
-    margin-bottom: 10px;
-    margin-left: auto;
-}
-
-#introduction {
-    padding-bottom: 0;
-}
 
 main form p {
     font-size: 15px;
@@ -35,22 +15,19 @@ main form p {
 * {
     margin: 0;
     padding: 0;
+    /* Removes the Scrollbar for a cleaner website-design*/
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    cursor: default;
 }
 
 *::-webkit-scrollbar {
     display: none;
-  }
-* {
-    margin: 0;
-    padding: 0;
-    /* Removes the Scrollbar for a cleaner website-design*/
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
 }
 
-html {
-    background-color: #000a0b;
-    /*background-position-y: 40%;*/
+body {
+    background-color: #000A0B;
     background-image: url(../img/bgbackground3.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -58,10 +35,7 @@ html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /*background-repeat: repeat-y;*/
-    /*background-size: 100%;*/
-    /*background-attachment: fixed;*/
-    /*position: -webkit-sticky;*/ /* Safari */
+    backdrop-filter: blur(5px);
 }
 
 div {
@@ -88,37 +62,26 @@ header div {
     height: 2000px;
 }*/
 
-
-#logo {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-}
-#banner {
-    height: 200px;
-}
-#bannerspace {
-    margin-top: 20px;
-}
-
 header {
+    background-color: black;
+    background-image: url(../img/bgbackground3.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     position: sticky;
     top: 0;
+}
+
+header div {
+    backdrop-filter: blur(3px);
 }
 
 nav {
     background-color: rgba(255, 255, 255, 0.6);
     text-align: right;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-}
-
-#bannerspace a {
-    cursor: default;
-}
-#logo:hover {
-    background-color: rgba(255, 255, 255, 0.2);
 }
 
 nav ul li {
@@ -129,6 +92,7 @@ nav ul li {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px 30px;
     cursor: default;
+    transition-duration: 0.1s;
 }
 nav ul a {
     cursor: default;
@@ -136,7 +100,7 @@ nav ul a {
 
 main div {
     margin: 1%;
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
 }
 main img {
     height: 100%;
@@ -162,71 +126,10 @@ footer p, footer a {
 footer div {
     padding: 30px;
 }
-.logo {
-    width: 5%;
-    margin: 30px;
-    background-color: transparent;
-    border: #333333 2px solid;
-}
+
 li:hover {
     color: dodgerblue;
     background-color: rgba(0, 0, 0, 0.2);
     padding: 20px 30px;
     margin: 0px 0px;
-}
-.cp {
-    color: red;
-    font-weight: bold;
-}
-.left {
-    float: left;
-}
-.right {
-    float: right;
-    text-align: right;
-}
-.column {
-    float: left;
-    width: 50%;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-#titel {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    text-align: center;
-    color: #ffffff;
-}
-#sup {
-    font-size: 10px;
-}
-#colorinput {
-    width: 100px;
-}
-#myImg{
-    width: 100%;
-    height: auto;
-    float: right;
-    margin-top: 10%;
-    margin-right: 5%;
-}
-#cvpic {
-    display:block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 70%; 
-    margin-top: 50px;
-    border: 5px solid #000a0b;
-}
-
-#download {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 10px;
-    border: 2px solid #ffffff;
-    width: 200px;
-    font-size: 15px;
 }

@@ -1,0 +1,109 @@
+/*<?php header("Content-Type:text/css; charset: UTF-8"); ?>*/
+
+.main {
+    color: white;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+.main div p {
+    font-size: 300%;
+}
+
+.main div hr {
+    width: 15%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.textdivcontent {
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.textdiv {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition-duration: 0.5s;
+}
+
+.textdiv:hover {
+    background: rgba(140, 3, 158, 0.5);
+    box-shadow: 0 0 36px 20px rgba(173, 43, 89),
+                0 0 36px 10px rgba(173, 43, 89) inset;
+}
+
+.logo {
+    width: 5%;
+    margin: 30px;
+    background-color: transparent;
+    border: #333333 2px solid;
+}
+
+.cp {
+    color: red;
+    font-weight: bold;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    text-align: right;
+}
+.column {
+    float: left;
+    width: 40%;
+    margin: 0 5% 0 5%;
+}
+
+.column form input {
+    outline: none;
+    margin-top: 20px;
+    width: 25%;
+    padding: 2% 0 2% 2%;
+
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.column form select {
+    outline: none;
+    margin-top: 20px;
+    width: 25%;
+    padding: 2% 0 2% 2%;
+    box-sizing: content-box;
+}
+
+.column4 {
+    float: left;
+    width: 33.33%;
+}
+.columnpic {
+    width: 80%;
+    height: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 5px solid #333333;
+    transition: all 2s;
+}
+.columnpic:hover {
+    width: 100%;
+}
+.pictext {
+    position: absolute;
+    padding-top: 1%;
+    padding-left: 1%;
+    bottom: 12%;
+    margin-left: 10%;
+    background-color: rgba(204, 204, 204, 0.5);
+    width: 79%;
+    height: 7%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

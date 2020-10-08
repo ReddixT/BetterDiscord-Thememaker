@@ -4,7 +4,9 @@
 <head>
     <title>ClearVision Credits</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/classes.css">
+    <link rel="stylesheet" href="css/ids.css">
     <link rel="icon" href="../img/BD.png">
 </head>
 
@@ -22,6 +24,8 @@
                         <li><a href="../index.php">Home</a></li>
                         <li><a href="../pages/createtheme.php">Create a Theme</a></li>
                         <li><a href="../pages/clearvision.php">ClearVision</a></li>
+                        <a href="../pages/library.php"><li>Library</li></a>
+                        <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe"><li>Download BD</li></a>
                     </ul>
                 </nav>
             </div>
