@@ -40,24 +40,17 @@ if ($_POST['generated']) {
     <div id="wrapper"></div>
     <div id="bannerspace">
         <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
-        <a href="../index.php"><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
+        <a href="../index.php" draggable=false><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
     </div>
     <header>
         <div>
             <nav>
                 <ul>
-                    <a href="../index.php" draggable=false>
-                        <li>Home</li>
-                    </a>
+                    <a href="../index.php"><li>Home</li></a>
                     <li class="cp">Create a Theme</li>
-                    <a href="../pages/clearvision.php">
-                        <li>ClearVision</li><a>
-                            <a href="../pages/library.php">
-                                <li>Library</li>
-                            </a>
-                            <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe">
-                                <li>Download BD</li>
-                            </a>
+                    <a href="../pages/clearvision.php"><li>ClearVision</li><a>
+                    <a href="../pages/library.php"><li>Library</li></a>
+                    <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe"><li>Download BD</li></a>
                 </ul>
             </nav>
         </div>

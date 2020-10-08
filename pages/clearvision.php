@@ -14,23 +14,23 @@
     <div id="wrapper"></div>
     <div id="bannerspace">
         <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
-        <a href="../index.php"><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
+        <a href="../index.php" draggable=false><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
     </div>
     <header>
         <div>
             <nav>
                 <ul>
-                    <a href="../index.php" draggable=false>
+                    <a href="../index.php">
                         <li>Home</li>
                     </a>
-                    <a href="../pages/createtheme.php" draggable=false>
+                    <a href="../pages/createtheme.php">
                         <li>Create a Theme</li>
                     </a>
                     <li class="cp">ClearVision</li>
                     <a href="../pages/library.php">
                         <li>Library</li>
                     </a>
-                    <a href="https://betterdiscord.net/home/" draggable=false>
+                    <a href="https://betterdiscord.net/home/">
                         <li>Download BD</li>
                     </a>
                 </ul>
