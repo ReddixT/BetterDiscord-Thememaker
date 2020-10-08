@@ -68,13 +68,13 @@
                 <div id="contributors_robin">
                     <p1>Robin aka. Sorry4Nothing</p1>
                     <br>
-                    <p2>Administratives Exectuting & Webdesign</p2>
+                    <p2>Administrative Exectuting & Webdesign</p2>
                 </div>
                 <br>
                 <div id="contributors_matteo">
                     <p1>Matteo aka. Mathelike</p1>
                     <br>
-                    <p2>Administratives Exectuting & Programming<p2>
+                    <p2>Administrative Exectuting & Programming<p2>
                 </div>
                 <br>
                 <div id="contributors_oliver">
