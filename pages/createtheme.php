@@ -39,18 +39,32 @@ if ($_POST['generated']) {
 <body>
     <div id="wrapper"></div>
     <div id="bannerspace">
-        <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
-        <a href="../index.php" draggable=false><img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false></a>
+        <center>
+            <a href="https://discord.com/">
+                <img id="banner" src="img/headerbg_tight_transparent.png" alt="banner" draggable=false>
+            </a>
+        </center>
+        <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe">
+            <img id="logo" src="img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false>
+        </a>
     </div>
     <header>
         <div>
             <nav>
                 <ul>
-                    <a href="../index.php"><li>Home</li></a>
+                    <a href="../index.php">
+                        <li>Home</li>
+                    </a>
                     <li class="cp">Create a Theme</li>
-                    <a href="../pages/clearvision.php"><li>ClearVision</li><a>
-                    <a href="../pages/library.php"><li>Library</li></a>
-                    <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe"><li>Download BD</li></a>
+                    <a href="../pages/clearvision.php">
+                        <li>ClearVision</li>
+                    </a>
+                    <a href="../pages/library.php">
+                        <li>Library</li>
+                    </a>
+                    <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe">
+                        <li>Download BD</li>
+                    </a>
                 </ul>
             </nav>
         </div>
@@ -58,6 +72,7 @@ if ($_POST['generated']) {
     <main>
         <div class="row">
             <h1 id="titel">Create your own Theme</h1>
+            <hr>
             <div class="column">
                 <!-- <center> -->
                 <form name="form" method="post">
@@ -112,12 +127,11 @@ if ($_POST['generated']) {
                         <br><br><br><br><br>
                     </div>
 
-                    <div id="rightdiv" {
-                        <label for="maincolor">
-                            Main Color
-                            <span title="Changes the main color">
-                                <sup id="sup">(?)</sup>
-                            </span>
+                    <div id="rightdiv" { <label for="maincolor">
+                        Main Color
+                        <span title="Changes the main color">
+                            <sup id="sup">(?)</sup>
+                        </span>
                         </label><br>
                         <input type="color" id="colorinput" name="maincolor" value="#2780e6"><br><br>
 
@@ -155,9 +169,9 @@ if ($_POST['generated']) {
 
                         <br><br>
                         <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
-                        </div>
-                    </form>
-                    <!-- </center> -->
+                    </div>
+                </form>
+                <!-- </center> -->
             </div>
             <div2 class="column">
                 <iframe sandbox="allow-scripts allow-pointer-lock allow-same-origin allow-forms" seamless src="https://discord.com" width="90%" height="400" name="SELFHTML_in_a_box">

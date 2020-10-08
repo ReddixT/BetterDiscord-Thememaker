@@ -13,8 +13,14 @@
 <body>
     <div id="wrapper"></div>
     <div id="bannerspace">
-        <center><img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
-        <img id="logo" src="../img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false>
+        <center>
+            <a href="https://discord.com/">
+                <img id="banner" src="img/headerbg_tight_transparent.png" alt="banner" draggable=false>
+            </a>
+        </center>
+        <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe">
+            <img id="logo" src="img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false>
+        </a>
     </div>
     <header>
         <div>

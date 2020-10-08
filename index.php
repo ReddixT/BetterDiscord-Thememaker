@@ -12,24 +12,34 @@
 
 <body>
     <div id="wrapper"></div>
-
-        <div id="bannerspace">
-            <center><img id="banner" src="img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
+    <div id="bannerspace">
+        <center>
+            <a href="https://discord.com/">
+                <img id="banner" src="img/headerbg_tight_transparent.png" alt="banner" draggable=false>
+            </a>
+        </center>
+        <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe">
             <img id="logo" src="img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false>
-            </div>
-            <header>
-                <div>
-                    <nav>
-                        <ul>
-                            <li class="cp">Home</li>
-                            <a href="pages/createtheme.php"><li>Create a Theme</li></a>
-                            <a href="pages/clearvision.php"><li>ClearVision</li></a>
-                            <a href="pages/library.php"><li>Library</li></a>
-                            <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe"><li>Download BD</li></a>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+        </a>
+    </div>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li class="cp">Home</li>
+                    <a href="pages/createtheme.php">
+                        <li>Create a Theme</li>
+                    </a>
+                    <a href="pages/clearvision.php">
+                        <li>ClearVision</li>
+                    </a>
+                    <a href="pages/library.php">
+                        <li>Library</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main class="main">
         <div id="introduction" class="textdiv textdiv2">
             <p>BetterDiscord Thememaker</p>
@@ -43,7 +53,7 @@
             <hr>
             <div class="textdivcontent">
                 <p1>The Origin of this project comes from our journey of becomming an application engineer. At the piont of making we are stationed in our basic apprenticeship year. We are beeing trained by the ZLI in lot's of skills we need to use in this project like HTML, CSS, PHP and many more.</p1>
-            </div> 
+            </div>
         </div>
         <div id="contributors" class="textdiv">
             <p>About the creators</p>

@@ -91,12 +91,8 @@ nav ul li {
     display: inline-block;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px 30px;
-    cursor: default;
+    padding: 20px;
     transition-duration: 0.1s;
-}
-nav ul a {
-    cursor: default;
 }
 
 main div {
