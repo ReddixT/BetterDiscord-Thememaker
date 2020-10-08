@@ -181,8 +181,8 @@ if ($_POST['generated']) {
         </div>
 
         <div class="right">
-            <a href="https://github.com/ReddixT/BetterDiscord-Thememaker">GitHub<br></a>
-            <a href="https://www.zli.ch/">ZLI</a>
+            <a href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false">GitHub<br></a>
+            <a href="https://www.zli.ch/" draggable="false">ZLI</a>
         </div>
     </footer>
     </div>
