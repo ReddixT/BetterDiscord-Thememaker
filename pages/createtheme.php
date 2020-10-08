@@ -152,13 +152,8 @@ if ($_POST['generated']) {
                     <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
                     <input type="submit" value="Download Theme" id="download">
                 </form>
-<<<<<<< HEAD
                 <!-- </center> -->
             </div>
-=======
-            </center>
-        </div>
->>>>>>> 842e7c9... preview start
             <div2 class="column">
                 <iframe
                     sandbox= "allow-scripts allow-pointer-lock allow-same-origin allow-forms"
