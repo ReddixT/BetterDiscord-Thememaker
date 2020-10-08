@@ -63,6 +63,7 @@ header div {
 }*/
 
 header {
+    z-index: 1;
     background-color: black;
     background-image: url(../img/bgbackground3.png);
     -webkit-background-size: cover;

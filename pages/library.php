@@ -31,7 +31,7 @@
             </nav>
         </div>
     </header>
-    <main>
+    <main class="main">
         <div class="row">
             <div class="column4">
                 <p style="text-align:center;">
