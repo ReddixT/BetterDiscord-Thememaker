@@ -35,79 +35,79 @@
             <div class="row">
                 <div class="column4">
                     <p style="text-align:center;">
-                        <a href="../librarythemes/BasicBackground.theme.css" download>
-                            <img src="../img/librarythumbnails/BasicBackground.jpg" alt="test" class="columnpic" draggable=false>
+                        <a href="https://betterdiscord.net/ghdl?id=1292" target="_blank">
+                            <img src="../themesbd/librarythumbnails/BasicBackground.jpg" alt="test" class="columnpic" draggable=false>
                         </a>
                     </p>
                     <div class="pictext">BasicBackground By: DevilBro</div>
                 </div>
                 <div class="column4">
                     <p style="text-align:center;">
-                        <a href="../assets/example.png" download>
-                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        <a href="https://betterdiscord.net/ghdl?id=2831" target="_blank">
+                            <img src="../themesbd/librarythumbnails/BlackHole.png" alt="test" class="columnpic" draggable=false>
                         </a>
                     </p>
-                    <div class="pictext">Themeexample</div>
+                    <div class="pictext">Black-Hole By: MonsterDev</div>
                 </div>
                 <div class="column4">
                     <p style="text-align:center;">
-                        <a href="../assets/example.png" download>
-                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        <a href="https://betterdiscord.net/ghdl?id=3197" target="_blank">
+                            <img src="../themesbd/librarythumbnails/FrostedGlass.jpg" alt="test" class="columnpic" draggable=false>
                         </a>
                     </p>
-                    <div class="pictext">Themeexample</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="column4">
-                    <p style="text-align:center;">
-                        <a href="../assets/example.png" download>
-                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
-                        </a>
-                    </p>
-                    <div class="pictext">Themeexample</div>
-                </div>
-                <div class="column4">
-                    <p style="text-align:center;">
-                        <a href="../assets/example.png" download>
-                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
-                        </a>
-                    </p>
-                    <div class="pictext">Themeexample</div>
-                </div>
-                <div class="column4">
-                    <p style="text-align:center;">
-                        <a href="../assets/example.png" download>
-                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
-                        </a>
-                    </p>
-                    <div class="pictext">Themeexample</div>
+                    <div class="pictext">FrostedGlass By: Gibbu</div>
                 </div>
             </div>
             <div class="row">
                 <div class="column4">
                     <p style="text-align:center;">
-                        <a href="../assets/example.png" download>
-                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        <a href="https://betterdiscord.net/ghdl?id=3196" target="_blank">
+                            <img src="../themesbd/librarythumbnails/HorizontalServerlist.jpg" alt="test" class="columnpic" draggable=false>
                         </a>
                     </p>
-                    <div class="pictext">Themeexample</div>
+                    <div class="pictext">HorizontalServerlist By: Gibbu</div>
                 </div>
                 <div class="column4">
                     <p style="text-align:center;">
-                        <a href="../assets/example.png" download>
-                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        <a href="https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/NFLD99/Better-Discord/master/Themes/Main/Retro.theme.css" download="Retro.theme.css">
+                            <img src="../themesbd/librarythumbnails/Retro.png" alt="test" class="columnpic" draggable=false>
                         </a>
                     </p>
-                    <div class="pictext">Themeexample</div>
+                    <div class="pictext">Retro By: NFLD99</div>
                 </div>
                 <div class="column4">
                     <p style="text-align:center;">
-                        <a href="../assets/example.png" download>
-                            <img src="../assets/example.png" alt="test" class="columnpic" draggable=false>
+                        <a href="https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/CapnKitten/Spotify-Discord/master/Spotify-Discord.theme.css" target="_blank">
+                            <img src="../themesbd/librarythumbnails/SpotifyDiscord.png" alt="test" class="columnpic" draggable=false>
                         </a>
                     </p>
-                    <div class="pictext">Themeexample</div>
+                    <div class="pictext">Spotify Discord By: CapnKitten</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column4">
+                    <p style="text-align:center;">
+                        <a href="https://betterdiscord.net/ghdl?id=3193" target="_blank">
+                            <img src="../themesbd/librarythumbnails/SimplyDark.jpg" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">SimplyDark By: Gibbu</div>
+                </div>
+                <div class="column4">
+                    <p style="text-align:center;">
+                        <a href="https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/CapnKitten/Translucence/master/Translucence.theme.css" download>
+                            <img src="../themesbd/librarythumbnails/Translucence.png" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">Translucence By: CapnKitten</div>
+                </div>
+                <div class="column4">
+                    <p style="text-align:center;">
+                        <a href="https://betterdiscord.net/ghdl?id=3252" download>
+                            <img src="../themesbd/librarythumbnails/Winter.png" alt="test" class="columnpic" draggable=false>
+                        </a>
+                    </p>
+                    <div class="pictext">Winter By: DevilsLynAvenged</div>
                 </div>
             </div>        
         </main>

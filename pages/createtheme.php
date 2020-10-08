@@ -2,7 +2,7 @@
 error_reporting(0);
 session_start();
 if ($_POST['generated']) {
-    $code = file_get_contents("../assets/base_theme.css");
+    $code = file_get_contents("../themesbd/base_theme.css");
     preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
     //print_r($matches);
     foreach ($matches as $value) {
