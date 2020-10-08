@@ -174,16 +174,7 @@ if ($_POST['generated']) {
                 <!-- </center> -->
             </div>
             <div2 class="column">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <iframe sandbox="allow-scripts allow-pointer-lock allow-same-origin allow-forms" seamless src="https://discord.com" width="90%" height="400" name="SELFHTML_in_a_box">
-                </iframe>
-=======
                 <object data="../assets/hack/discordpreview.html" id="preview" ></object>
->>>>>>> d487723... preview anpassung
-=======
-                <iframe src="../assets/hack/discordpreview.html" id="preview" ></iframe>
->>>>>>> 128e5b0... preview format
             </div2>
     </main>
     <footer>
