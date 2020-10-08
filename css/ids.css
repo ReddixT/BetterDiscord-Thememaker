@@ -34,10 +34,10 @@
 }
 #preview{
     width: 100%;
-    height: auto;
+    height: 500px;
     float: right;
-    margin-top: 10%;
-    margin-right: 5%;
+    
+
 }
 #cvpic {
     display:block; 

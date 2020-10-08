@@ -9,7 +9,10 @@
 *:focus {
 	outline: 0;
 }
-
+html {
+	width: 100%;
+	height: 50%;
+}
 html, body {
 	height: 100%;
 	background: #121416;
@@ -70,7 +73,6 @@ html, body {
 }
 
 .channels .channels-header .channels-header-dropdown use {
-	stroke-dasharray: 7;
 	transform-origin: 50%;
 	transition: stroke-dasharray 0.2s ease, transform 0.2s ease;
 }
@@ -80,7 +82,6 @@ html, body {
 }
 
 .channels .channels-header:focus use {
-	stroke-dasharray: 14;
 	transform: rotate(-90deg);
 }
 
@@ -156,7 +157,7 @@ html, body {
 }
 
 .channels .channel-text .channel-name::before {
-	font-weight: 400 !important;
+	font-weight: 400;
 }
 
 .channels .channels-list {
