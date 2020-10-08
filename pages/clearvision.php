@@ -36,6 +36,7 @@
                         <li>Library</li>
                     </a>
                     <li class="cp">ClearVision</li>
+                    <a href="../pages/tutorial.php"><li>Tutorial</li></a>
                 </ul>
             </nav>
         </div>
