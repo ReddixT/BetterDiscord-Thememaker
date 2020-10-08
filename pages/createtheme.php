@@ -50,7 +50,7 @@ if ($_POST['generated']) {
                         <li class="cp">Create a Theme</li>
                         <a href="../pages/clearvision.php"><li>ClearVision</li><a>
                         <a href="../pages/library.php"><li>Library</li></a>
-                        <a href="https://github-production-release-asset-2e65be.s3.amazonaws.com/155161153/c7d2fb00-d1b5-11ea-99e8-f5ca60f47502?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20201007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201007T133112Z&X-Amz-Expires=300&X-Amz-Signature=e578fa6ab8b7b286918c8629240895289558e2c80700400a082f79e3a1187c62&X-Amz-SignedHeaders=host&actor_id=63563893&key_id=0&repo_id=155161153&response-content-disposition=attachment%3B%20filename%3DBandagedBD.exe&response-content-type=application%2Foctet-stream"><li>Download BD</li></a>
+                        <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe"><li>Download BD</li></a>
                     </ul>
                 </nav>
             </div>
