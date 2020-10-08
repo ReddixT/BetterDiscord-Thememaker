@@ -29,6 +29,7 @@
     font-size: 10px;
 }
 #colorinput {
+    cursor: pointer;
     padding: 1%;
 }
 #preview{
@@ -48,10 +49,25 @@
 }
 
 #download {
+    cursor: default;
     background-color: #000000;
     color: #ffffff;
     padding: 10px;
     border: 2px solid #ffffff;
     width: 200px;
     font-size: 15px;
+}
+
+#download:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+#leftdiv {
+    width: 50%;
+    float: left;
+}
+
+#rightdiv {
+    width: 50%;
+    float: right;
 }

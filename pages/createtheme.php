@@ -69,97 +69,101 @@ if ($_POST['generated']) {
                 <!-- <center> -->
                 <form name="form" method="post">
 
-                    <label for="themename">
-                        Name your Theme
-                        <span title="Shows the themename in Discord">
-                            <sup id="sup">(?)</sup>
-                        </span>
-                    </label><br>
-                    <input type="text" name="themename" value="CustomTheme"><br><br>
+                    <div id="leftdiv">
+                        <label for="themename">
+                            Name your Theme
+                            <span title="Shows the themename in Discord">
+                                <sup id="sup">(?)</sup>
+                            </span>
+                        </label><br>
+                        <input type="text" name="themename" value="CustomTheme"><br><br>
 
-                    <label for="author">
-                        Author
-                        <span title="Shows the author in Discord">
-                            <sup id="sup">(?)</sup>
-                        </span>
-                    </label><br>
-                    <input type="text" name="author" value="ROM-R"><br><br>
+                        <label for="author">
+                            Author
+                            <span title="Shows the author in Discord">
+                                <sup id="sup">(?)</sup>
+                            </span>
+                        </label><br>
+                        <input type="text" name="author" value="ROM-R"><br><br>
 
-                    <label for="maincolor">
-                        Main Color
-                        <span title="Changes the main color">
-                            <sup id="sup">(?)</sup>
-                        </span>
-                    </label><br>
-                    <input type="color" id="colorinput" name="maincolor" value="#2780e6"><br><br>
+                        <label for="channelwidth">
+                            Channelwidth in px
+                            <span title="Changes the width of text and voice channels">
+                                <sup id="sup">(?)</sup>
+                            </span>
+                        </label><br>
+                        <input type="number" name="channelwidth" value="220"><br><br>
 
-                    <label for="hovercolor">
-                        Hover Color
-                        <span title="Changes the color when hovering over something.">
-                            <sup id="sup">(?)</sup>
-                        </span>
-                    </label><br>
-                    <input type="color" id="colorinput" name="hovercolor" value="#1e63b3"><br><br>
+                        <label for="memberwidth">
+                            Memberwidth in px
+                            <span title="Changes the width of the members on a server">
+                                <sup id="sup">(?)</sup>
+                            </span>
+                        </label><br>
+                        <input type="number" name="memberwidth" value="240"><br><br>
 
-                    <label for="textcolor">
-                        Text Color
-                        <span title="Changes the text color.">
-                            <sup id="sup">(?)</sup>
-                        </span>
-                    </label><br>
-                    <input type="color" id="colorinput" name="textcolor" value="#CCCCCC"><br><br>
+                        <label for="font">
+                            Font
+                            <span title="Changes all font in discord">
+                                <sup id="sup">(?)</sup>
+                            </span>
+                        </label><br>
+                        <select name="font" id="font">
+                            <option value="Whitney" selected="selected">Whitney</option>
+                            <option value="Arial">Arial</option>
+                            <option value="Helvetica Neue">Helvetica Neue</option>
+                            <option value="Helvetica">Helvetica</option>
+                            <option value="sans-serif">sans-serif</option>
+                        </select><br><br>
+                        <input type="submit" value="Download Theme" id="download">
+                    </div>
 
-                    <label for="channelwidth">
-                        Channelwidth in px
-                        <span title="Changes the width of text and voice channels">
-                            <sup id="sup">(?)</sup>
-                        </span>
-                    </label><br>
-                    <input type="number" name="channelwidth" value="220"><br><br>
+                    <div id="rightdiv" {
+                        <label for="maincolor">
+                            Main Color
+                            <span title="Changes the main color">
+                                <sup id="sup">(?)</sup>
+                            </span>
+                        </label><br>
+                        <input type="color" id="colorinput" name="maincolor" value="#2780e6"><br><br>
 
-                    <label for="memberwidth">
-                        Memberwidth in px
-                        <span title="Changes the width of the members on a server">
-                            <sup id="sup">(?)</sup>
-                        </span>
-                    </label><br>
-                    <input type="number" name="memberwidth" value="240"><br><br>
+                        <label for="hovercolor">
+                            Hover Color
+                            <span title="Changes the color when hovering over something.">
+                                <sup id="sup">(?)</sup>
+                            </span>
+                        </label><br>
+                        <input type="color" id="colorinput" name="hovercolor" value="#1e63b3"><br><br>
 
-                    <label for="bgimg">
-                        Background Image URL
-                        <span title="Background image will be applied to your discord background">
-                            <sup id="sup">(?)</sup>
-                        </span>
-                    </label><br>
-                    <input type="url" name="bgimg" value=""><br><br>
+                        <label for="textcolor">
+                            Text Color
+                            <span title="Changes the text color.">
+                                <sup id="sup">(?)</sup>
+                            </span>
+                        </label><br>
+                        <input type="color" id="colorinput" name="textcolor" value="#CCCCCC"><br><br>
 
-                    <label for="bgblur">
-                        Background blur in px
-                        <span title="Changes the blur of the background">
-                            <sup id="sup">(?)</sup>
-                        </span>
-                    </label><br>
-                    <input type="number" name="bgblur" value="0"><br><br>
+                        <label for="bgimg">
+                            Background Image URL
+                            <span title="Background image will be applied to your discord background">
+                                <sup id="sup">(?)</sup>
+                            </span>
+                        </label><br>
+                        <input type="url" name="bgimg" value=""><br><br>
 
+                        <label for="bgblur">
+                            Background blur in px
+                            <span title="Changes the blur of the background">
+                                <sup id="sup">(?)</sup>
+                            </span>
+                        </label><br>
+                        <input type="number" name="bgblur" value="0"><br><br>
 
-                    <label for="font">
-                        Font
-                        <span title="Changes all font in discord">
-                            <sup id="sup">(?)</sup>
-                        </span>
-                    </label><br>
-                    <select name="font" id="font">
-                        <option value="Whitney" selected="selected">Whitney</option>
-                        <option value="Arial">Arial</option>
-                        <option value="Helvetica Neue">Helvetica Neue</option>
-                        <option value="Helvetica">Helvetica</option>
-                        <option value="sans-serif">sans-serif</option>
-                    </select>
-                    <br><br>
-                    <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
-                    <input type="submit" value="Download Theme" id="download">
-                </form>
-                <!-- </center> -->
+                        <br><br>
+                        <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
+                        </div>
+                    </form>
+                    <!-- </center> -->
             </div>
             <div2 class="column">
                 <iframe sandbox="allow-scripts allow-pointer-lock allow-same-origin allow-forms" seamless src="https://discord.com" width="90%" height="400" name="SELFHTML_in_a_box">
