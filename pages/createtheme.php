@@ -166,7 +166,7 @@ if ($_POST['generated']) {
                             </span>
                         </label><br>
                         <input type="number" name="bgblur" value="0"><br><br>
-
+                        <input type="submit" value="Submit" id="submit-btn">
                         <br><br>
                         <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
                     </div>
