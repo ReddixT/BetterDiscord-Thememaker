@@ -49,10 +49,10 @@
             </div>
         </div>
         <div id="origin" class="textdiv">
-            <p>The origin</p>
+            <p>The Origin</p>
             <hr>
             <div class="textdivcontent">
-                <p1>The Origin of this project comes from our journey of becomming an application engineer. At the piont of making we are stationed in our basic apprenticeship year. We are beeing trained by the ZLI in lot's of skills we need to use in this project like HTML, CSS, PHP and many more.</p1>
+                <p1>The Origin of this project comes from our journey of becomming an application engineer. We are currently in our first apprenticeship year. We are beeing trained by the ZLI in lot's of skills we need to use in this project like HTML, CSS, PHP and many more.</p1>
             </div>
         </div>
         <div id="contributors" class="textdiv">
