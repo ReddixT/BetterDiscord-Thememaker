@@ -52,7 +52,7 @@
             <p>The Origin</p>
             <hr>
             <div class="textdivcontent">
-                <p1>The Origin of this project comes from our journey of becomming an application engineer. We are currently in our first apprenticeship year. We are beeing trained by the ZLI in lot's of skills we need to use in this project like HTML, CSS, PHP and many more.</p1>
+                <p1>The Origin of this project comes from our journey of becomming an application engineer. We are currently in our first apprenticeship year located in the ZLI. These programming languages are used in out project: HTML, CSS, PHP and JS.</p1>
             </div>
         </div>
         <div id="contributors" class="textdiv">
