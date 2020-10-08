@@ -29,7 +29,7 @@
                     <a href="../index.php" draggable=false>
                         <li>Home</li>
                     </a>
-                    <a href="../pages/createtheme.php"><li>Create a Theme</li></a>
+                    <a href="../pages/createtheme.php" draggable=false><li>Create a Theme</li></a>
                     <a href="../pages/library.php" draggable=false>
                         <li>Library</li>
                     </a>

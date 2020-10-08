@@ -62,7 +62,7 @@ if ($_POST['generated']) {
                     <a href="../pages/clearvision.php" draggable=false>
                         <li>ClearVision</li>
                     </a>
-                    <a href="../pages/tutorial.php"><li>Tutorial</li></a>
+                    <a href="../pages/tutorial.php" draggable=false><li>Tutorial</li></a>
                 </ul>
             </nav>
         </div>
