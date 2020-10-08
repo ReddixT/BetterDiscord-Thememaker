@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>ThemeMaker Library</title>
+    <title>Library</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/classes.css">

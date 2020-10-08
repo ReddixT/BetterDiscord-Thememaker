@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>ThemeMaker</title>
+    <title>Tutorial</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/classes.css">
