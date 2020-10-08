@@ -12,24 +12,35 @@
 
 <body>
     <div id="wrapper"></div>
-
-        <div id="bannerspace">
-            <center><img id="banner" src="img/headerbg_tight_transparent.png" alt="banner" draggable=false></center>
+    <div id="bannerspace">
+        <center>
+            <a href="https://discord.com/" draggable=false>
+                <img id="banner" src="img/headerbg_tight_transparent.png" alt="banner" draggable=false>
+            </a>
+        </center>
+        <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe" draggable=false>
             <img id="logo" src="img/BD_transparent.png" class="logo" alt="ICON BD" draggable=false>
-            </div>
-            <header>
-                <div>
-                    <nav>
-                        <ul>
-                            <li class="cp">Home</li>
-                            <a href="pages/createtheme.php"><li>Create a Theme</li></a>
-                            <a href="pages/clearvision.php"><li>ClearVision</li></a>
-                            <a href="pages/library.php"><li>Library</li></a>
-                            <a href="https://github.com/rauenzi/BBDInstaller/releases/latest/download/BandagedBD.exe"><li>Download BD</li></a>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+        </a>
+    </div>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li class="cp">Home</li>
+                    <a href="pages/createtheme.php" draggable=false>
+                        <li>Create a Theme</li>
+                    </a>
+                    <a href="pages/library.php" draggable=false>
+                        <li>Library</li>
+                    </a>
+                    <a href="pages/clearvision.php" draggable=false>
+                        <li>ClearVision</li>
+                    </a>
+                    <a href="pages/tutorial.php" draggable=false><li>Tutorial</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main class="main">
         <div id="introduction" class="textdiv textdiv2">
             <p>BetterDiscord Thememaker</p>
@@ -39,11 +50,11 @@
             </div>
         </div>
         <div id="origin" class="textdiv">
-            <p>The origin</p>
+            <p>The Origin</p>
             <hr>
             <div class="textdivcontent">
-                <p1>The Origin of this project comes from our journey of becomming an application engineer. At the piont of making we are stationed in our basic apprenticeship year. We are beeing trained by the ZLI in lot's of skills we need to use in this project like HTML, CSS, PHP and many more.</p1>
-            </div> 
+                <p1>The Origin of this project comes from our journey of becomming an application engineer. We are currently in our first apprenticeship year located in the ZLI. These programming languages are used in out project: HTML, CSS, PHP and JS.</p1>
+            </div>
         </div>
         <div id="contributors" class="textdiv">
             <p>About the creators</p>
@@ -58,13 +69,13 @@
                 <div id="contributors_robin">
                     <p1>Robin aka. Sorry4Nothing</p1>
                     <br>
-                    <p2>Administratives Exectuting & Webdesign</p2>
+                    <p2>Administrative Exectuting & Webdesign</p2>
                 </div>
                 <br>
                 <div id="contributors_matteo">
                     <p1>Matteo aka. Mathelike</p1>
                     <br>
-                    <p2>Administratives Exectuting & Programming<p2>
+                    <p2>Administrative Exectuting & Programming<p2>
                 </div>
                 <br>
                 <div id="contributors_oliver">
@@ -81,8 +92,8 @@
         </div>
 
         <div class="right">
-            <a href="https://github.com/ReddixT/BetterDiscord-Thememaker">GitHub<br></a>
-            <a href="https://www.zli.ch/">ZLI</a>
+            <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="img/github.png"></a>
+            <a id="zlilogo" href="https://www.zli.ch/" draggable="false"><img src="img/ZLI.png"></a>
         </div>
     </footer>
     </div>

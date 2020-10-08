@@ -2,12 +2,12 @@
 <html>
 
 <head>
-    <title>ClearVision Credits</title>
+    <title>Tutorial</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/classes.css">
     <link rel="stylesheet" href="../css/ids.css">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="icon" href="../img/BD_transparent.png">
+    <link rel="icon" href="../img/BD.png">
 </head>
 
 <body>
@@ -29,29 +29,25 @@
                     <a href="../index.php" draggable=false>
                         <li>Home</li>
                     </a>
-                    <a href="../pages/createtheme.php" draggable=false>
-                        <li>Create a Theme</li>
-                    </a>
+                    <a href="../pages/createtheme.php" draggable=false><li>Create a Theme</li></a>
                     <a href="../pages/library.php" draggable=false>
                         <li>Library</li>
                     </a>
-                    <li class="cp">ClearVision</li>
-                    <a href="../pages/tutorial.php" draggable=false><li>Tutorial</li></a>
+                    <a href="../pages/clearvision.php" draggable=false>
+                        <li>ClearVision</li>
+                    </a>
+                    <li class="cp">Tutorial</li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
-        <div>
-            <h1 id="titel">ClearVision v6</h1>
-            <div>
-                <center>
-                    <p style="display:inline">We are using ClearVision v6 as a template, so go checkout</p>
-                    <a href="https://github.com/ClearVision/ClearVision-v6">ClearVision!</a>
-                </center>
-                <img src="../img/CV.png" alt="ClearVision" id="cvpic">
-            </div>
-        </div>
+    <main id="tutorialMain">
+        <center>
+            <p>How to install BetterDiscord with Themes and Plugins</p>
+            <hr>
+            <p2>Tutorial by <a href="https://www.youtube.com/user/ChrisBrosTV">Vast</a> on YouTube.</p2><br>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/bjn8P0q6kjQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
     </main>
     <footer>
         <div class="left">
@@ -59,13 +55,10 @@
         </div>
 
         <div class="right">
-            <!-- <a href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false">GitHub<br></a>
-            <a href="https://www.zli.ch/" draggable="false">ZLI</a> -->
             <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="../img/github.png"></a>
             <a id="zlilogo" href="https://www.zli.ch/" draggable="false"><img src="../img/ZLI.png"></a>
         </div>
     </footer>
-    </div>
 </body>
 
 </html>
