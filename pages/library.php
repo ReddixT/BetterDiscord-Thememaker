@@ -46,7 +46,8 @@
                         <img src="../themesbd/librarythumbnails/BasicBackground.jpg" alt="test" class="columnpic" draggable=false>
                     </a>
                 </p>
-                <div class="pictext">BasicBackground By: DevilBro</div>
+                <div class="pictext">BasicBackground<br></div>
+                <div class="pictextsmol">By: DevilBro</div>
             </div>
             <div class="column4">
                 <p style="text-align:center;">
@@ -54,7 +55,8 @@
                         <img src="../themesbd/librarythumbnails/BlackHole.png" alt="test" class="columnpic" draggable=false>
                     </a>
                 </p>
-                <div class="pictext">Black-Hole By: MonsterDev</div>
+                <div class="pictext">Black-Hole<br></div>
+                <div class="pictextsmol">By: MonsterDev</div>
             </div>
             <div class="column4">
                 <p style="text-align:center;">
@@ -62,7 +64,8 @@
                         <img src="../themesbd/librarythumbnails/FrostedGlass.jpg" alt="test" class="columnpic" draggable=false>
                     </a>
                 </p>
-                <div class="pictext">FrostedGlass By: Gibbu</div>
+                <div class="pictext">FrostedGlass<br></div>
+                <div class="pictextsmol">By: Gibbu</div>
             </div>
         </div>
         <div class="row">
@@ -72,7 +75,8 @@
                         <img src="../themesbd/librarythumbnails/HorizontalServerlist.jpg" alt="test" class="columnpic" draggable=false>
                     </a>
                 </p>
-                <div class="pictext">HorizontalServerlist By: Gibbu</div>
+                <div class="pictext">HorizontalServerlist<br></div>
+                <div class="pictextsmol">By: Gibbu</div>
             </div>
             <div class="column4">
                 <p style="text-align:center;">
@@ -80,7 +84,8 @@
                         <img src="../themesbd/librarythumbnails/Retro.png" alt="test" class="columnpic" draggable=false>
                     </a>
                 </p>
-                <div class="pictext">Retro By: NFLD99</div>
+                <div class="pictext">Retro<br></div>
+                <div class="pictextsmol">By: NFLD99</div>
             </div>
             <div class="column4">
                 <p style="text-align:center;">
@@ -88,7 +93,8 @@
                         <img src="../themesbd/librarythumbnails/SpotifyDiscord.png" alt="test" class="columnpic" draggable=false>
                     </a>
                 </p>
-                <div class="pictext">Spotify Discord By: CapnKitten</div>
+                <div class="pictext">Spotify Discord<br></div>
+                <div class="pictextsmol">By: CapnKitten</div>
             </div>
         </div>
         <div class="row">
@@ -98,7 +104,8 @@
                         <img src="../themesbd/librarythumbnails/SimplyDark.jpg" alt="test" class="columnpic" draggable=false>
                     </a>
                 </p>
-                <div class="pictext">SimplyDark By: Gibbu</div>
+                <div class="pictext">SimplyDark<br></div>
+                <div class="pictextsmol">By: Gibbu</div>
             </div>
             <div class="column4">
                 <p style="text-align:center;">
@@ -106,7 +113,8 @@
                         <img src="../themesbd/librarythumbnails/Translucence.png" alt="test" class="columnpic" draggable=false>
                     </a>
                 </p>
-                <div class="pictext">Translucence By: CapnKitten</div>
+                <div class="pictext">Translucence<br></div>
+                <div class="pictextsmol">By: CapnKitten</div>
             </div>
             <div class="column4">
                 <p style="text-align:center;">
@@ -114,7 +122,8 @@
                         <img src="../themesbd/librarythumbnails/Winter.png" alt="test" class="columnpic" draggable=false>
                     </a>
                 </p>
-                <div class="pictext">Winter By: DevilsLynAvenged</div>
+                <div class="pictext">Winter<br></div>
+                <div class="pictextsmol">By: DevilsLynAvenged</div>
             </div>
         </div>
     </main>

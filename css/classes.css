@@ -101,6 +101,19 @@
     background-color: rgba(204, 204, 204, 0.5);
     width: 79%;
     height: 7%;
+    font-weight: bold;
+}
+.pictextsmol {
+    background-color: rgba(204, 204, 204, 0.5);
+    font-weight: lighter;
+    font-size: 10px;
+    position: relative;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1px;
+    margin-left: 10%;
+    width: 79%;
 }
 .row:after {
     content: "";
