@@ -1,6 +1,7 @@
 <?php
 error_reporting(0);
 session_start();
+$submit = filter_input(INPUT_POST, 'submit', FILTER_SANITIZE_STRING);
 $generated = filter_input(INPUT_POST, 'generated', FILTER_SANITIZE_STRING);
 if ($generated) {
     $code = file_get_contents("../themesbd/base_theme.css");
@@ -25,8 +26,7 @@ if ($generated) {
     header('Content-Length: ' . filesize($temp_file));
     readfile($temp_file);
 }
-$submit = filter_input(INPUT_POST, 'submit', FILTER_SANITIZE_STRING);
-if ($submit) {
+elseif ($submit) {
     $code = file_get_contents("../discordpreview/discordpreview.css");
     preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
     //print_r($matches);
@@ -35,7 +35,11 @@ if ($submit) {
         $code = str_replace($value[0], $replacement, $code);
     }
     $filename = "discordpreview".session_id().".css";
-    file_put_contents("../discordpreview/$filename", $code);
+    file_put_contents("../discordpreview/temp/$filename", $code);
+} else {
+    $code = file_get_contents("../discordpreview/discordpreviewdefault.css");
+    $filename = "discordpreview".session_id().".css";
+    file_put_contents("../discordpreview/temp/$filename", $code);
 }
 ?>
 <!DOCTYPE html>

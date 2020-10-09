@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <?php
         session_start();
-        echo "<link rel=\"stylesheet\" href=\"../discordpreview/discordpreview".session_id().".css\">"
+        echo "<link rel=\"stylesheet\" href=\"../discordpreview/temp/discordpreview".session_id().".css\">"
     ?>
 </head>
     <body>

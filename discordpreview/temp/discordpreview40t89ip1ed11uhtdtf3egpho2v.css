@@ -18,7 +18,7 @@ html {
 html, body {
 	height: 100%;
 	background: #121416;
-	color: #fff;
+	color: #cccccc;
 	font-size: 16px;
 	font-family: "Whitney"; 
 }
@@ -27,7 +27,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-image: url();
+	background-image: url(https://www.zli.ch/fileadmin/020_Basislehrjahre-BLJ/060_BLJ-Jump-Start/Bilder/ZLI-JumpStart-Was-ist-das-Home.jpg);
 	backdrop-filter: blur(0px);
 }
 
@@ -148,20 +148,12 @@ body {
 
 .channels .channel-text.active, .channels .channel-text:focus {
 	border-radius: 5px;
-<<<<<<< HEAD
-	background: #2780e6;
-=======
-	background: #e63228;
->>>>>>> main
+	background: #28e635;
 }
 
 .channels .channel-text:hover {
 	border-radius: 5px;
-<<<<<<< HEAD
-	background: #1e63b3;
-=======
-	background: #28b31e;
->>>>>>> main
+	background: #5ab31e;
 }
 
 .channels .channel-text:not(.active):focus::before, .channels .channel-text:not(.active):hover::before {
@@ -489,13 +481,8 @@ svg[id] {
 	display: inline-block; 
 	width: 20%; 
 	vertical-align: middle;
-<<<<<<< HEAD
-	border-color: #2780e6;
-	color: #2780e6;
-=======
-	border-color: #e63228;
-	color: #e63228;
->>>>>>> main
+	border-color: #28e635;
+	color: #28e635;
 }
 .vert-members {
 	display: flex;
