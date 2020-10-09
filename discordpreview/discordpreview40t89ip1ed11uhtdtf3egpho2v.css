@@ -20,7 +20,15 @@ html, body {
 	background: #121416;
 	color: #fff;
 	font-size: 16px;
-	font-family: "Roboto";
+	font-family: "Whitney"; 
+}
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-image: url(https://clearvision.gitlab.io/images/sapphire.jpg);
+	backdrop-filter: blur(0px);
 }
 
 .container {
@@ -36,13 +44,13 @@ html, body {
 
 .servers {
 	height: 100%;
-	background: #1e2124;
 	flex: 0 0 70px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	overflow-y: auto;
 	padding: 18px 0 18px 0;
+	background-color: rgba(0, 0, 0, 0.7);
 	-ms-overflow-style: none;
 }
 
@@ -51,20 +59,21 @@ html, body {
 }
 
 .channels {
-	background: #2e3136;
 	display: flex;
 	flex-direction: column;
-	flex: 0 0 240px;
+	flex: 0 0 220px;
 }
 
 .channels .channels-header {
 	cursor: pointer;
 	display: flex;
 	align-items: center;
-	flex: 0 0 56px;
-	padding: 28px 24px;
-	box-shadow: 0 1px 0 #24272b, inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+	flex: 0 0 57px;
+	padding-left: 24px;
+	padding-right: 24px;
+	background: rgba(0, 0, 0, 0.85);
 	transition: background 0.15s ease;
+	width: 220px;
 }
 
 .channels .channels-header .channels-header-dropdown {
@@ -77,10 +86,6 @@ html, body {
 .channels .channels-header .channels-header-dropdown use {
 	transform-origin: 50%;
 	transition: stroke-dasharray 0.2s ease, transform 0.2s ease;
-}
-
-.channels .channels-header:hover, .channels .channels-header:focus {
-	background: #282b2f;
 }
 
 .channels .channels-header:focus use {
@@ -141,17 +146,14 @@ html, body {
 	position: relative;
 }
 
-.channels .channel-text.active, .channels .channel-text:hover, .channels .channel-text:focus {
-	background: linear-gradient(to right, #282b30 85%, #2e3136);
+.channels .channel-text.active, .channels .channel-text:focus {
+	border-radius: 5px;
+	background: #c4c700;
 }
 
-.channels .channel-text.active::before, .channels .channel-text:hover::before, .channels .channel-text:focus::before {
-	content: " ";
-	width: 2px;
-	height: 100%;
-	position: absolute;
-	left: 0;
-	background: #7289da;
+.channels .channel-text:hover {
+	border-radius: 5px;
+	background: #1e63b3;
 }
 
 .channels .channel-text:not(.active):focus::before, .channels .channel-text:not(.active):hover::before {
@@ -166,6 +168,8 @@ html, body {
 	flex: 1 1;
 	overflow-y: auto;
 	padding: 0 20px;
+	background: rgba(0, 0, 0, 0.75);
+	width: 220px;
 }
 
 .channels .channels-list ul {
@@ -209,9 +213,10 @@ html, body {
 	align-items: center;
 	flex: 0 0 70px;
 	margin-top: auto;
-	background: #282b30;
 	border-top: 1px solid #1c1e21;
 	padding: 0 10px;
+	background: rgba(0, 0, 0, 0.8);
+	width: 220px;
 }
 
 .channels .channels-footer .channels-footer-details {
@@ -262,8 +267,7 @@ html, body {
 .menu {
 	flex: 0 0 57px;
 	padding: 0 20px 0 20px;
-	background: #36393e;
-	border-bottom: 1px solid #303337;
+	background: rgba(0, 0, 0, 0.85);
 	display: flex;
 	align-items: center;
 }
@@ -282,15 +286,14 @@ html, body {
 }
 
 .chat {
-	background: #36393e;
 	flex: 1;
+	background: rgba(0, 0, 0, 0.8);
 }
 
 .server {
 	width: 50px;
 	height: 50px;
 	border-radius: 25px;
-	background-color: #2e3136;
 	background-repeat: no-repeat;
 	margin-bottom: 8px;
 	cursor: pointer;
@@ -448,4 +451,40 @@ svg[id] {
 	100% {
 		border-radius: 25px;
 	}
+}
+.memberslist {
+	padding: 10px 10px;
+	flex: 1 1;
+	background: rgba(0, 0, 0, 0.8);
+	border-left: 1px solid black;
+	width: 240px;
+}
+.menumembers {
+	flex: 0 0 57px;
+	padding: 0 20px 0 20px;
+	background: rgba(0, 0, 0, 0.85);
+	display: flex;
+	align-items: center;
+}
+.member {
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+}
+.membername {
+	position: relative;
+	padding: 10px;
+	flex: 1 ;
+	bottom: 10px;
+}
+.hrrole {
+	display: inline-block; 
+	width: 20%; 
+	vertical-align: middle;
+	border-color: #c4c700;
+	color: #c4c700;
+}
+.vert-members {
+	display: flex;
+	flex-direction: column;
 }

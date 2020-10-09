@@ -1,12 +1,14 @@
 <?php
 error_reporting(0);
 session_start();
-if ($_POST['generated']) {
+$generated = filter_input(INPUT_POST, 'generated', FILTER_SANITIZE_STRING);
+if ($generated) {
     $code = file_get_contents("../themesbd/base_theme.css");
     preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
     //print_r($matches);
     foreach ($matches as $value) {
-        $code = str_replace($value[0], $_POST[$value[1]], $code);
+        $replacement = filter_input(INPUT_POST, $value[1]);
+        $code = str_replace($value[0], $replacement, $code);
     }
     $filename = 'ThemeMaker' . session_id() . ".css";
     $temp_file = sys_get_temp_dir() . DIRECTORY_SEPARATOR . $filename;
@@ -15,13 +17,26 @@ if ($_POST['generated']) {
     fclose($fp);
     header('Content-Description: File Transfer');
     header('Content-Type: text/css');
-    header('Content-Disposition: attachment; filename="' . $_POST['themename'] . '.theme.css"');
+    $themename = filter_input(INPUT_POST, 'themename', FILTER_SANITIZE_STRING);
+    header('Content-Disposition: attachment; filename="' . $themename . '.theme.css"');
     header('Expires: 0');
     header('Cache-Control: must-revalidate');
     header('Pragma: public');
     header('Content-Length: ' . filesize($temp_file));
     readfile($temp_file);
     exit;
+}
+$submit = filter_input(INPUT_POST, 'submit', FILTER_SANITIZE_STRING);
+if ($submit) {
+    $code = file_get_contents("../discordpreview/discordpreview.css");
+    preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
+    //print_r($matches);
+    foreach ($matches as $value) {
+        $replacement = filter_input(INPUT_POST, $value[1]);
+        $code = str_replace($value[0], $replacement, $code);
+    }
+    $filename = "discordpreview".session_id().".css";
+    file_put_contents("../discordpreview/$filename", $code);
 }
 ?>
 <!DOCTYPE html>
@@ -122,12 +137,12 @@ if ($_POST['generated']) {
                             <option value="Helvetica Neue">Helvetica Neue</option>
                             <option value="Helvetica">Helvetica</option>
                             <option value="sans-serif">sans-serif</option>
-                        </select><br><br>
-                        <input type="submit" value="Download Theme" id="download">
-                        <br><br><br><br><br>
+                        </select>
+                        <input type="submit" value="Download Theme" id="downloadbtn" name="generated">
                     </div>
 
-                    <div id="rightdiv" { <label for="maincolor">
+                    <div id="rightdiv">
+                        <label for="maincolor">
                         Main Color
                         <span title="Changes the main color">
                             <sup id="sup">(?)</sup>
@@ -165,16 +180,14 @@ if ($_POST['generated']) {
                                 <sup id="sup">(?)</sup>
                             </span>
                         </label><br>
-                        <input type="number" name="bgblur" value="0"><br><br>
-                        <input type="submit" value="Submit" id="submit-btn">
-                        <br><br>
-                        <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
+                        <input type="number" name="bgblur" value="0">
+                        <input type="submit" id="submit-btn" value="Submit" name="submit">
                     </div>
                 </form>
                 <!-- </center> -->
             </div>
-            <div2 class="column">
-                <object data="../assets/hack/discordpreview.html" id="preview" ></object>
+            <div2 class="columnbig">
+                <object data="../discordpreview/discordpreview.php" id="preview" ></object>
             </div2>
     </main>
     <footer>
