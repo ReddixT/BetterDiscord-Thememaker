@@ -25,6 +25,18 @@ if ($generated) {
     header('Content-Length: ' . filesize($temp_file));
     readfile($temp_file);
 }
+$submit = filter_input(INPUT_POST, 'submit', FILTER_SANITIZE_STRING);
+if ($submit) {
+    $code = file_get_contents("../discordpreview/discordpreview.css");
+    preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
+    //print_r($matches);
+    foreach ($matches as $value) {
+        $replacement = filter_input(INPUT_POST, $value[1]);
+        $code = str_replace($value[0], $replacement, $code);
+    }
+    $filename = "discordpreview".session_id().".css";
+    file_put_contents("../discordpreview/$filename", $code);
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -125,7 +137,13 @@ if ($generated) {
                             <option value="Helvetica">Helvetica</option>
                             <option value="sans-serif">sans-serif</option>
                         </select><br><br>
-                        <input type="submit" value="Download Theme" id="download">
+
+
+                        <input type="submit" value="Download Theme" id="download" name="generated">
+
+
+
+
                         <br><br><br><br><br>
                     </div>
 
@@ -168,20 +186,18 @@ if ($generated) {
                             </span>
                         </label><br>
                         <input type="number" name="bgblur" value="0"><br><br>
-                        <input type="submit" value="Submit" id="submit-btn">
+                        <input type="submit" value="Submit" name="submit">
                         <br><br>
-                        <input type="hidden" name="generated" value="<?php echo date("YmdHis"); ?>">
                     </div>
                 </form>
                 <!-- </center> -->
             </div>
-<<<<<<< HEAD
             <div2 class="preview">
                 <iframe src="../assats/preview.php" title="preview-user" id="preview"></iframe>
-=======
             <div2 class="column">
                 <object data="../discordpreview/discordpreview.html" id="preview" ></object>
->>>>>>> 4673f585a427f6492a80e7e02a188f459e880d4c
+                <object data="../discordpreview/discordpreview.php" id="preview" ></object>
+
             </div2>
     </main>
     <footer>
