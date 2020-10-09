@@ -20,7 +20,7 @@ html, body {
 	background: #121416;
 	color: #cccccc;
 	font-size: 16px;
-	font-family: "Whitney"; 
+	font-family: "Helvetica Neue"; 
 }
 body {
 	-webkit-background-size: cover;
@@ -148,12 +148,12 @@ body {
 
 .channels .channel-text.active, .channels .channel-text:focus {
 	border-radius: 5px;
-	background: #28e635;
+	background: #f34a12;
 }
 
 .channels .channel-text:hover {
 	border-radius: 5px;
-	background: #5ab31e;
+	background: #752934;
 }
 
 .channels .channel-text:not(.active):focus::before, .channels .channel-text:not(.active):hover::before {
@@ -481,8 +481,8 @@ svg[id] {
 	display: inline-block; 
 	width: 20%; 
 	vertical-align: middle;
-	border-color: #28e635;
-	color: #28e635;
+	border-color: #f34a12;
+	color: #f34a12;
 }
 .vert-members {
 	display: flex;
