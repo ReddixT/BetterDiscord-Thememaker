@@ -179,7 +179,7 @@ if ($_POST['generated']) {
     </main>
     <footer>
         <div class="left">
-            <p>Project Contributors: <br>René, Matteo, Robin, Oliver<br></p>
+            <p id="footertext">Project Contributors: <br>René, Matteo, Robin, Oliver<br></p>
         </div>
 
         <div class="right">
