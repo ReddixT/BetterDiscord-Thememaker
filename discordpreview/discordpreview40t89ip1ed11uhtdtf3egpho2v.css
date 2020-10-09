@@ -15,7 +15,6 @@ html {
 	width: 100%;
 	height: 50%;
 }
-
 html, body {
 	height: 100%;
 	background: #121416;
@@ -28,7 +27,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-image: url(https://clearvision.gitlab.io/images/sapphire.jpg);
+	background-image: url();
 	backdrop-filter: blur(0px);
 }
 
@@ -149,7 +148,7 @@ body {
 
 .channels .channel-text.active, .channels .channel-text:focus {
 	border-radius: 5px;
-	background: #c4c700;
+	background: #2780e6;
 }
 
 .channels .channel-text:hover {
@@ -458,7 +457,7 @@ svg[id] {
 	flex: 1 1;
 	background: rgba(0, 0, 0, 0.8);
 	border-left: 1px solid black;
-	width: 240px;
+	width: 500px;
 }
 .menumembers {
 	flex: 0 0 57px;
@@ -482,8 +481,8 @@ svg[id] {
 	display: inline-block; 
 	width: 20%; 
 	vertical-align: middle;
-	border-color: #c4c700;
-	color: #c4c700;
+	border-color: #2780e6;
+	color: #2780e6;
 }
 .vert-members {
 	display: flex;

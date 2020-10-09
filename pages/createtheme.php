@@ -185,17 +185,9 @@ if ($submit) {
                 </form>
                 <!-- </center> -->
             </div>
-<<<<<<< HEAD
-            <div2 class="preview">
-                <iframe src="../assats/preview.php" title="preview-user" id="preview"></iframe>
-            <div2 class="column">
-                <object data="../discordpreview/discordpreview.html" id="preview" ></object>
-=======
-            <div2 class="columnbig">
->>>>>>> 0b1096ce0051c7e2cfcb9ff9448def484498eb70
+            <div class="columnbig">
                 <object data="../discordpreview/discordpreview.php" id="preview" ></object>
-
-            </div2>
+            </div>
     </main>
     <footer>
         <div class="left">
