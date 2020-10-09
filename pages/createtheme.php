@@ -98,7 +98,16 @@ if ($submit) {
                                 <sup id="sup">(?)</sup>
                             </span>
                         </label><br>
-                        <input type="text" name="themename" value="CustomTheme"><br><br>
+                        <input type="text" name="themename" value="<?php 
+                                $themename = filter_input(INPUT_POST, 'themename', FILTER_SANITIZE_STRING);
+                                if ($submit) { 
+                                    echo $themename; 
+                                }
+                                else {
+                                    echo "CustomTheme";
+                                }
+                            ?>"
+                        ><br><br>
 
                         <label for="author">
                             Author
@@ -106,7 +115,16 @@ if ($submit) {
                                 <sup id="sup">(?)</sup>
                             </span>
                         </label><br>
-                        <input type="text" name="author" value="ROM-R"><br><br>
+                        <input type="text" name="author" value="<?php 
+                                $author = filter_input(INPUT_POST, 'author', FILTER_SANITIZE_STRING);
+                                if ($submit) { 
+                                    echo $author; 
+                                }
+                                else {
+                                    echo "ROM-R";
+                                }
+                            ?>"
+                        ><br><br>
 
                         <label for="channelwidth">
                             Channelwidth in px
@@ -114,7 +132,16 @@ if ($submit) {
                                 <sup id="sup">(?)</sup>
                             </span>
                         </label><br>
-                        <input type="number" name="channelwidth" value="220"><br><br>
+                        <input type="number" name="channelwidth" value="<?php 
+                                $channelwidth = filter_input(INPUT_POST, 'channelwidth', FILTER_SANITIZE_STRING);
+                                if ($submit) { 
+                                    echo $channelwidth; 
+                                }
+                                else {
+                                    echo "220";
+                                }
+                            ?>"
+                        ><br><br>
 
                         <label for="memberwidth">
                             Memberwidth in px
@@ -122,7 +149,16 @@ if ($submit) {
                                 <sup id="sup">(?)</sup>
                             </span>
                         </label><br>
-                        <input type="number" name="memberwidth" value="240"><br><br>
+                        <input type="number" name="memberwidth" value="<?php 
+                                $memberwidth = filter_input(INPUT_POST, 'memberwidth', FILTER_SANITIZE_STRING);
+                                if ($submit) { 
+                                    echo $memberwidth; 
+                                }
+                                else {
+                                    echo "240";
+                                }
+                            ?>"
+                        ><br><br>
 
                         <label for="font">
                             Font
@@ -142,12 +178,21 @@ if ($submit) {
 
                     <div id="rightdiv">
                         <label for="maincolor">
-                        Main Color
-                        <span title="Changes the main color">
-                            <sup id="sup">(?)</sup>
-                        </span>
+                            Main Color
+                            <span title="Changes the main color">
+                                <sup id="sup">(?)</sup>
+                            </span>
                         </label><br>
-                        <input type="color" id="colorinput" name="maincolor" value="#2780e6"><br><br>
+                        <input type="color" id="colorinput" name="maincolor" value="<?php 
+                                $maincolor = filter_input(INPUT_POST, 'maincolor', FILTER_SANITIZE_STRING);
+                                if ($submit) { 
+                                    echo $maincolor; 
+                                }
+                                else {
+                                    echo "#2780e6";
+                                }
+                            ?>"
+                        ><br><br>
 
                         <label for="hovercolor">
                             Hover Color
@@ -155,7 +200,16 @@ if ($submit) {
                                 <sup id="sup">(?)</sup>
                             </span>
                         </label><br>
-                        <input type="color" id="colorinput" name="hovercolor" value="#1e63b3"><br><br>
+                        <input type="color" id="colorinput" name="hovercolor" value="<?php 
+                                $hovercolor = filter_input(INPUT_POST, 'hovercolor', FILTER_SANITIZE_STRING);
+                                if ($submit) { 
+                                    echo $hovercolor; 
+                                }
+                                else {
+                                    echo "#1e63b3";
+                                }
+                            ?>"
+                        ><br><br>
 
                         <label for="textcolor">
                             Text Color
@@ -163,7 +217,16 @@ if ($submit) {
                                 <sup id="sup">(?)</sup>
                             </span>
                         </label><br>
-                        <input type="color" id="colorinput" name="textcolor" value="#CCCCCC"><br><br>
+                        <input type="color" id="colorinput" name="textcolor" value="<?php 
+                                $textcolor = filter_input(INPUT_POST, 'textcolor', FILTER_SANITIZE_STRING);
+                                if ($submit) { 
+                                    echo $textcolor; 
+                                }
+                                else {
+                                    echo "#CCCCCC";
+                                }
+                            ?>"
+                        ><br><br>
 
                         <label for="bgimg">
                             Background Image URL
@@ -171,7 +234,16 @@ if ($submit) {
                                 <sup id="sup">(?)</sup>
                             </span>
                         </label><br>
-                        <input type="url" name="bgimg" value=""><br><br>
+                        <input type="url" name="bgimg" value="<?php 
+                                $bgimg = filter_input(INPUT_POST, 'bgimg', FILTER_SANITIZE_STRING);
+                                if ($submit) { 
+                                    echo $bgimg; 
+                                }
+                                else {
+                                    echo "";
+                                }
+                            ?>"
+                        ><br><br>
 
                         <label for="bgblur">
                             Background blur in px
@@ -179,7 +251,16 @@ if ($submit) {
                                 <sup id="sup">(?)</sup>
                             </span>
                         </label><br>
-                        <input type="number" name="bgblur" value="0">
+                        <input type="number" name="bgblur" value="<?php 
+                                $bgblur = filter_input(INPUT_POST, 'bgblur', FILTER_SANITIZE_STRING);
+                                if ($submit) { 
+                                    echo $bgblur; 
+                                }
+                                else {
+                                    echo "0";
+                                }
+                            ?>"
+                        >
                         <input type="submit" id="submit-btn" value="Submit" name="submit">
                     </div>
                 </form>
@@ -195,7 +276,7 @@ if ($submit) {
         </div>
 
         <div class="right">
-            <a id="projectlogo" draggable="false"><img src="../img/projectlogo.png" draggable="false"></a>
+            <a id="projectlogo" draggable="false"><img src="../img/BD_transparent2.png" draggable="false"></a>
             <a id="discordlogo" href="https://discord.com/" draggable="false"><img src="../img/discord_icon.png" draggable="false"></a>
             <a id="waage" href="https://github.com/ReddixT/BetterDiscord-Thememaker/blob/main/LICENSE" draggable="false"><img src="../img/waage.png" draggable="false"></a>
             <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="../img/github.png" draggable="false"></a>

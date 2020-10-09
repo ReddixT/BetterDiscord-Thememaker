@@ -148,12 +148,20 @@ body {
 
 .channels .channel-text.active, .channels .channel-text:focus {
 	border-radius: 5px;
+<<<<<<< HEAD
 	background: #2780e6;
+=======
+	background: #e63228;
+>>>>>>> main
 }
 
 .channels .channel-text:hover {
 	border-radius: 5px;
+<<<<<<< HEAD
 	background: #1e63b3;
+=======
+	background: #28b31e;
+>>>>>>> main
 }
 
 .channels .channel-text:not(.active):focus::before, .channels .channel-text:not(.active):hover::before {
@@ -481,8 +489,13 @@ svg[id] {
 	display: inline-block; 
 	width: 20%; 
 	vertical-align: middle;
+<<<<<<< HEAD
 	border-color: #2780e6;
 	color: #2780e6;
+=======
+	border-color: #e63228;
+	color: #e63228;
+>>>>>>> main
 }
 .vert-members {
 	display: flex;
