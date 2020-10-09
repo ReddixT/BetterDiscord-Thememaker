@@ -27,7 +27,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-image: url(https://images.ctfassets.net/yvfjq1euvxh4/1SDWE21IA7TwvgSxLDhBC4/5cea135a5565006e1976220b4bcbdd36/TIPA-placeholder.png);
+	background-image: url(https://clearvision.gitlab.io/images/sapphire.jpg);
 	backdrop-filter: blur(0px);
 }
 
@@ -457,8 +457,7 @@ svg[id] {
 	flex: 1 1;
 	background: rgba(0, 0, 0, 0.8);
 	border-left: 1px solid black;
-	width: 200px;
-	float: right;
+	width: 240;
 }
 .menumembers {
 	flex: 0 0 57px;
@@ -473,7 +472,7 @@ svg[id] {
 	border-radius: 100%;
 }
 .membername {
-	position:relative;
+	position: relative;
 	padding: 10px;
 	flex: 1 ;
 	bottom: 10px;
@@ -482,12 +481,10 @@ svg[id] {
 	display: inline-block; 
 	width: 20%; 
 	vertical-align: middle;
-	border-color: #1e63b3;
-	color: #1e63b3;
+	border-color: #2780e6;
+	color: #2780e6;
 }
 .vert-members {
 	display: flex;
-	flex: 1;
 	flex-direction: column;
-	float: right;
 }
