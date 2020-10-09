@@ -46,7 +46,7 @@ if ($submit) {
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/classes.css">
     <link rel="stylesheet" href="../css/ids.css">
-    <link rel="icon" href="../img/BD.png">
+    <link rel="icon" href="../img/projectlogo.png">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
