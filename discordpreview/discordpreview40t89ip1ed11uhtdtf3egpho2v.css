@@ -148,7 +148,7 @@ body {
 
 .channels .channel-text.active, .channels .channel-text:focus {
 	border-radius: 5px;
-	background: #2780e6;
+	background: #c4c700;
 }
 
 .channels .channel-text:hover {
@@ -457,7 +457,7 @@ svg[id] {
 	flex: 1 1;
 	background: rgba(0, 0, 0, 0.8);
 	border-left: 1px solid black;
-	width: 240;
+	width: 240px;
 }
 .menumembers {
 	flex: 0 0 57px;
@@ -467,8 +467,8 @@ svg[id] {
 	align-items: center;
 }
 .member {
-	width: 31px;
-	height: 31px;
+	width: 25px;
+	height: 25px;
 	border-radius: 100%;
 }
 .membername {
@@ -481,8 +481,8 @@ svg[id] {
 	display: inline-block; 
 	width: 20%; 
 	vertical-align: middle;
-	border-color: #2780e6;
-	color: #2780e6;
+	border-color: #c4c700;
+	color: #c4c700;
 }
 .vert-members {
 	display: flex;

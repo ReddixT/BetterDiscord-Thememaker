@@ -93,7 +93,7 @@
                     <p class="hrrole">Role</p>
                     <hr class="hrrole">
                 </center><br>
-                <div style="margin-top:-10px;">     
+                <div style="margin-top:-5px;">     
                     <img src="https://discordapp.com/assets/0e291f67c9274a1abdddeb3fd919cbaa.png" class="member">
                     <span class="membername">Member
                     </span>

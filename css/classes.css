@@ -54,8 +54,13 @@
 }
 .column {
     float: left;
-    width: 40%;
+    width: 31%;
     margin: 2% 5% 0 5%;
+}
+.columnbig {
+    float: left;
+    width: 55%;
+    margin-top: 2%;
 }
 
 .column form input {

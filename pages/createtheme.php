@@ -137,18 +137,12 @@ if ($submit) {
                             <option value="Helvetica Neue">Helvetica Neue</option>
                             <option value="Helvetica">Helvetica</option>
                             <option value="sans-serif">sans-serif</option>
-                        </select><br><br>
-
-
-                        <input type="submit" value="Download Theme" id="download" name="generated">
-
-
-
-
-                        <br><br><br><br><br>
+                        </select>
+                        <input type="submit" value="Download Theme" id="downloadbtn" name="generated">
                     </div>
 
-                    <div id="rightdiv" { <label for="maincolor">
+                    <div id="rightdiv">
+                        <label for="maincolor">
                         Main Color
                         <span title="Changes the main color">
                             <sup id="sup">(?)</sup>
@@ -186,14 +180,13 @@ if ($submit) {
                                 <sup id="sup">(?)</sup>
                             </span>
                         </label><br>
-                        <input type="number" name="bgblur" value="0"><br><br>
+                        <input type="number" name="bgblur" value="0">
                         <input type="submit" id="submit-btn" value="Submit" name="submit">
-                        <br><br>
                     </div>
                 </form>
                 <!-- </center> -->
             </div>
-            <div2 class="column">
+            <div2 class="columnbig">
                 <object data="../discordpreview/discordpreview.php" id="preview" ></object>
             </div2>
     </main>
