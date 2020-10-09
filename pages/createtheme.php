@@ -46,7 +46,7 @@ if ($submit) {
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/classes.css">
     <link rel="stylesheet" href="../css/ids.css">
-    <link rel="icon" href="../img/BD_transparent.png">
+    <link rel="icon" href="../img/projectlogo.png">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
@@ -54,7 +54,7 @@ if ($submit) {
     <div id="wrapper"></div>
     <div id="bannerspace">
         <center>
-            <a href="https://discord.com/" draggable=false>
+            <a draggable=false>
                 <img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false>
             </a>
         </center>
@@ -136,18 +136,12 @@ if ($submit) {
                             <option value="Helvetica Neue">Helvetica Neue</option>
                             <option value="Helvetica">Helvetica</option>
                             <option value="sans-serif">sans-serif</option>
-                        </select><br><br>
-
-
-                        <input type="submit" value="Download Theme" id="download" name="generated">
-
-
-
-
-                        <br><br><br><br><br>
+                        </select>
+                        <input type="submit" value="Download Theme" id="downloadbtn" name="generated">
                     </div>
 
-                    <div id="rightdiv" { <label for="maincolor">
+                    <div id="rightdiv">
+                        <label for="maincolor">
                         Main Color
                         <span title="Changes the main color">
                             <sup id="sup">(?)</sup>
@@ -185,29 +179,35 @@ if ($submit) {
                                 <sup id="sup">(?)</sup>
                             </span>
                         </label><br>
-                        <input type="number" name="bgblur" value="0"><br><br>
-                        <input type="submit" value="Submit" name="submit">
-                        <br><br>
+                        <input type="number" name="bgblur" value="0">
+                        <input type="submit" id="submit-btn" value="Submit" name="submit">
                     </div>
                 </form>
                 <!-- </center> -->
             </div>
+<<<<<<< HEAD
             <div2 class="preview">
                 <iframe src="../assats/preview.php" title="preview-user" id="preview"></iframe>
             <div2 class="column">
                 <object data="../discordpreview/discordpreview.html" id="preview" ></object>
+=======
+            <div2 class="columnbig">
+>>>>>>> 0b1096ce0051c7e2cfcb9ff9448def484498eb70
                 <object data="../discordpreview/discordpreview.php" id="preview" ></object>
 
             </div2>
     </main>
     <footer>
         <div class="left">
-            <p>Project Contributors: <br>René, Matteo, Robin, Oliver<br></p>
+            <p id="footertext">Project Contributors: <br>René, Matteo, Robin, Oliver<br></p>
         </div>
 
         <div class="right">
-            <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="../img/github.png"></a>
-            <a id="zlilogo" href="https://www.zli.ch/" draggable="false"><img src="../img/ZLI.png"></a>
+            <a id="projectlogo" draggable="false"><img src="../img/projectlogo.png" draggable="false"></a>
+            <a id="discordlogo" href="https://discord.com/" draggable="false"><img src="../img/discord_icon.png" draggable="false"></a>
+            <a id="waage" href="https://github.com/ReddixT/BetterDiscord-Thememaker/blob/main/LICENSE" draggable="false"><img src="../img/waage.png" draggable="false"></a>
+            <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="../img/github.png" draggable="false"></a>
+            <a id="zlilogo" href="https://www.zli.ch/" draggable="false"><img src="../img/ZLI.png" draggable="false"></a>
         </div>
     </footer>
     </div>

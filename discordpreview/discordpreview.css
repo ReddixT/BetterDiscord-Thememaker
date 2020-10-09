@@ -452,13 +452,39 @@ svg[id] {
 		border-radius: 25px;
 	}
 }
-.members {
+.memberslist {
+	padding: 10px 10px;
+	flex: 1 1;
+	background: rgba(0, 0, 0, 0.8);
+	border-left: 1px solid black;
+	width: {%memberwidth%}px;
+}
+.menumembers {
+	flex: 0 0 57px;
+	padding: 0 20px 0 20px;
+	background: rgba(0, 0, 0, 0.85);
+	display: flex;
+	align-items: center;
+}
+.member {
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+}
+.membername {
+	position: relative;
+	padding: 10px;
+	flex: 1 ;
+	bottom: 10px;
+}
+.hrrole {
+	display: inline-block; 
+	width: 20%; 
+	vertical-align: middle;
+	border-color: {%maincolor%};
+	color: {%maincolor%};
+}
+.vert-members {
 	display: flex;
 	flex-direction: column;
-	flex: 0 0 {%memberwidth%}px;
-	padding: 0 20px 0 20px;
-	background: rgba(0, 0, 0, 0.8);
-}
-.members .members-list {
-	padding-top: 70px;
 }
