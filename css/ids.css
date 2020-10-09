@@ -127,5 +127,11 @@
 }
 
 #footertext {
-    padding-top: 3%;
+    padding-top: 6%;
+}
+
+#waage img {
+    width: 5%;
+    height: 5%;
+    padding-right: 2%;
 }

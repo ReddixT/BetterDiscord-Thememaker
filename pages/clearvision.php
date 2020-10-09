@@ -61,6 +61,7 @@
         <div class="right">
             <!-- <a href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false">GitHub<br></a>
             <a href="https://www.zli.ch/" draggable="false">ZLI</a> -->
+            <a id="waage" href="https://github.com/ReddixT/BetterDiscord-Thememaker/blob/main/LICENSE" draggable="false"><img src="../img/waage.png" draggable="false"></a>
             <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="../img/github.png" draggable="false"></a>
             <a id="zlilogo" href="https://www.zli.ch/" draggable="false"><img src="../img/ZLI.png" draggable="false"></a>
         </div>

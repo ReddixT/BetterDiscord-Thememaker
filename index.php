@@ -88,10 +88,11 @@
     </main>
     <footer>
         <div class="left">
-            <p id="footertext">Project Contributors: <br>René, Matteo, Robin, Oliver<br></p>
+            <p id="footertext">Project Contributors: <br>René, Matteo, Robin, Oliver</p>
         </div>
 
         <div class="right">
+            <a id="waage" href="" draggable="false"><img src="img/waage.png" draggable="false"></a>
             <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="img/github.png" draggable=false></a>
             <a id="zlilogo" href="https://www.zli.ch/" draggable="false"><img src="img/ZLI.png" draggable=false></a>
         </div>
