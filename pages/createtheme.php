@@ -1,12 +1,14 @@
 <?php
 error_reporting(0);
 session_start();
-if ($_POST['generated']) {
+$generated = filter_input(INPUT_POST, 'generated', FILTER_SANITIZE_STRING);
+if ($generated) {
     $code = file_get_contents("../themesbd/base_theme.css");
     preg_match_all('/{%(.*?)%}/i', $code, $matches, PREG_SET_ORDER);
     //print_r($matches);
     foreach ($matches as $value) {
-        $code = str_replace($value[0], $_POST[$value[1]], $code);
+        $replacement = filter_input(INPUT_POST, $value[1]);
+        $code = str_replace($value[0], $replacement, $code);
     }
     $filename = 'ThemeMaker' . session_id() . ".css";
     $temp_file = sys_get_temp_dir() . DIRECTORY_SEPARATOR . $filename;
@@ -15,7 +17,8 @@ if ($_POST['generated']) {
     fclose($fp);
     header('Content-Description: File Transfer');
     header('Content-Type: text/css');
-    header('Content-Disposition: attachment; filename="' . $_POST['themename'] . '.theme.css"');
+    $themename = filter_input(INPUT_POST, 'themename', FILTER_SANITIZE_STRING);
+    header('Content-Disposition: attachment; filename="' . $themename . '.theme.css"');
     header('Expires: 0');
     header('Cache-Control: must-revalidate');
     header('Pragma: public');
