@@ -187,7 +187,7 @@ if ($submit) {
                             </span>
                         </label><br>
                         <input type="number" name="bgblur" value="0"><br><br>
-                        <input type="submit" value="Submit" name="submit">
+                        <input type="submit" id="submit-btn" value="Submit" name="submit">
                         <br><br>
                     </div>
                 </form>
