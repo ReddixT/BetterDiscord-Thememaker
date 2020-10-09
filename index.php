@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/classes.css">
     <link rel="stylesheet" href="css/ids.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="../img/BD.png">
+    <link rel="icon" href="img/BD.png">
 </head>
 
 <body>
@@ -92,7 +92,7 @@
         </div>
 
         <div class="right">
-            <a id="projectlogo" draggable="false"><img src="img/projectlogo.png" draggable="false"></a>
+            <a id="projectlogo" draggable="false"><img src="img/BD_transparent2.png" draggable="false"></a>
             <a id="discordlogo" href="https://discord.com/" draggable="false"><img src="img/discord_icon.png" draggable="false"></a>
             <a id="waage" href="https://github.com/ReddixT/BetterDiscord-Thememaker/blob/main/LICENSE" draggable="false"><img src="img/waage.png" draggable="false"></a>
             <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="img/github.png" draggable=false></a>
