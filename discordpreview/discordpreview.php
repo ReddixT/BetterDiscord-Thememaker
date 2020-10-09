@@ -4,7 +4,10 @@
 <head>
     <title>Themecreator</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../hack/discordpreview.css">
+    <?php
+        session_start();
+        echo "<link rel=\"stylesheet\" href=\"../discordpreview/discordpreview".session_id().".css\">"
+    ?>
 </head>
     <body>
     <main class="container">
@@ -71,7 +74,6 @@
                 </div>
             </footer>
         </aside>
-            
         <div class="vert-container">
             <menu type="toolbar" class="menu">
                 <h2 class="menu-name">general</h2>
@@ -81,8 +83,25 @@
             
             </section>
         </div>
+        <div class="vert-members">
+            <menu type="toolbar" class="menumembers">
+                <h2 class="menu-name"></h2>
+            </menu>
+            <div class="memberslist">          
+                <center>
+                    <hr class="hrrole">
+                    <p class="hrrole">Role</p>
+                    <hr class="hrrole">
+                </center><br>
+                <div style="margin-top:-5px;">     
+                    <img src="https://discordapp.com/assets/0e291f67c9274a1abdddeb3fd919cbaa.png" class="member">
+                    <span class="membername">Member
+                    </span>
+                </div>
+            </div>
+        </div>
     </main>
-    <script type="text/javascript" src="../hack/discordpreview.js"></script>
+    <script type="text/javascript" src="../discordpreview/discordpreview.js"></script>
 </body>
 
     <!-- ICONS -->

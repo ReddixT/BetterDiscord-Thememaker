@@ -14,7 +14,7 @@
     <div id="wrapper"></div>
     <div id="bannerspace">
         <center>
-            <a href="https://discord.com/" draggable=false>
+            <a draggable=false>
                 <img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false>
             </a>
         </center>
@@ -136,12 +136,15 @@
     </main>
     <footer>
         <div class="left">
-            <p>Project Contributors: <br>René, Matteo, Robin, Oliver<br></p>
+            <p id="footertext">Project Contributors: <br>René, Matteo, Robin, Oliver<br></p>
         </div>
 
         <div class="right">
-            <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="../img/github.png"></a>
-            <a id="zlilogo" href="https://www.zli.ch/" draggable="false"><img src="../img/ZLI.png"></a>
+            <a id="projectlogo" draggable="false"><img src="../img/projectlogo.png" draggable="false"></a>
+            <a id="discordlogo" href="https://discord.com/" draggable="false"><img src="../img/discord_icon.png" draggable="false"></a>
+            <a id="waage" href="https://github.com/ReddixT/BetterDiscord-Thememaker/blob/main/LICENSE" draggable="false"><img src="../img/waage.png" draggable="false"></a>
+            <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="../img/github.png" draggable="false"></a>
+            <a id="zlilogo" href="https://www.zli.ch/" draggable="false"><img src="../img/ZLI.png" draggable="false"></a>
         </div>
     </footer>
     </div>
