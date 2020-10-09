@@ -43,10 +43,10 @@
     </header>
     <main id="tutorialMain">
         <center>
-            <p>How to install BetterDiscord with Themes and Plugins</p>
+            <p>BetterDiscord - How to download and setup</p>
             <hr>
             <p2>Tutorial by <a href="https://www.youtube.com/user/ChrisBrosTV">Vast</a> on YouTube.</p2><br>
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/bjn8P0q6kjQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1024" height="576" src="https://www.youtube.com/embed/bjn8P0q6kjQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </center>
     </main>
     <footer>
