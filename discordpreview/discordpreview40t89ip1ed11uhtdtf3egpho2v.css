@@ -457,7 +457,7 @@ svg[id] {
 	flex: 1 1;
 	background: rgba(0, 0, 0, 0.8);
 	border-left: 1px solid black;
-	width: 500px;
+	width: 240px;
 }
 .menumembers {
 	flex: 0 0 57px;
