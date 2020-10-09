@@ -14,7 +14,7 @@
     <div id="wrapper"></div>
     <div id="bannerspace">
         <center>
-            <a href="https://discord.com/" draggable=false>
+            <a draggable=false>
                 <img id="banner" src="../img/headerbg_tight_transparent.png" alt="banner" draggable=false>
             </a>
         </center>
@@ -55,6 +55,7 @@
         </div>
 
         <div class="right">
+            <a id="discordlogo" href="https://discord.com/" draggable="false"><img src="../img/discord_icon.png"></a>
             <a id="waage" href="https://github.com/ReddixT/BetterDiscord-Thememaker/blob/main/LICENSE" draggable="false"><img src="../img/waage.png" draggable="false"></a>
             <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="../img/github.png" draggable="false"></a>
             <a id="zlilogo" href="https://www.zli.ch/" draggable="false"><img src="../img/ZLI.png" draggable="false§"></a>
