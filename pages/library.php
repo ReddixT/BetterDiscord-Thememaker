@@ -140,8 +140,8 @@
         </div>
 
         <div class="right">
-            <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="../img/github.png"></a>
-            <a id="zlilogo" href="https://www.zli.ch/" draggable="false"><img src="../img/ZLI.png"></a>
+            <a id="githublogo" href="https://github.com/ReddixT/BetterDiscord-Thememaker" draggable="false"><img src="../img/github.png" draggable="false"></a>
+            <a id="zlilogo" href="https://www.zli.ch/" draggable="false"><img src="../img/ZLI.png" draggable="false"></a>
         </div>
     </footer>
     </div>
